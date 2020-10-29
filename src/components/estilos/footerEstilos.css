@@ -1,0 +1,19 @@
+.linksimple {
+  color: #fafafa;
+  text-decoration: none !important;
+}
+
+.linksimple:hover {
+  color: #fafafa;
+  text-decoration: none !important;
+}
+
+.linksencillo {
+  color: #FFA06D;
+  text-decoration: none !important;
+}
+
+.linksencillo:hover {
+  color: #FFA06D;
+  text-decoration: none !important;
+}

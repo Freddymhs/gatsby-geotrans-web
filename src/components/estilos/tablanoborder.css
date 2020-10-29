@@ -1,0 +1,16 @@
+.borderless td,
+.borderless th {
+  border: none;
+}
+
+.borderless table {
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+}
+
+.table td,
+.table th {
+  border-top: 0px solid #dee2e6 !important;
+}

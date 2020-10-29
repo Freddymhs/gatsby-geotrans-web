@@ -1,0 +1,391 @@
+{
+    "elidioma": "Español",
+    "headertop": {
+        "dias": "Lunes-Sabado",
+        "horas": "7:00 AM 7:00 PM"
+    },
+    "datosgeotrans": {
+        "email": "Correo Electronico",
+        "telefono": "Telefono",
+        "social": "Red Social",
+        "ubicacion": "Arica , Chile",
+        "pagina": "www.maquinariasgeotrans.cl",
+        "emailContact": "mailto:Contacto@maquinariasgeotrans.cl",
+        "facebookContact": "https://www.facebook.com/MaquinariasGeotrans",
+        "telefonoContact": "tel:56975607391",
+        "linkedinContact": "https://cl.linkedin.com/company/MaquinariasGeotrans/",
+        "whatsapContact": "https://wa.me/56975607391",
+        "txtFacebook": "Conocenos en Facebook"
+    },
+    "footer": {
+        "contact": "Conctactenos",
+        "cotizar": "Cotizacion",
+        "redes": "Redes sociales",
+        "location": "Nuestra Ubicacion",
+        "machines": "Maquinarias",
+        "services": "Servicios",
+        "nav": "Navega"
+    },
+    "idioma": "español",
+    "header": {
+        "title": "GEOTRANS",
+        "subtitle": "Maquinarias y Transportes",
+        "Home": "Inicio",
+        "About Us": "Nosotros",
+        "Services": "Servicios",
+        "Contact": "Contactos",
+        "Contact us": "Contactenos",
+        "Work with us": "Trabaje con Nosotros",
+        "News": "Noticias"
+    },
+    "portada": {
+        "paragraph1": "10 años en el Sector.",
+        "paragraph2": "Comienza tu proyecto ahora con",
+        "paragraph2b": " GEOTRANS",
+        "paragraph3": "Servicios enfocados a ",
+        "paragraphA": " Transporte",
+        "paragraphB": " Obras Civiles",
+        "paragraphC": " Construcción"
+    },
+    "Maquinarias": {
+        "lemaA": "Especializados en las necesidades de Nuestra Region",
+        "lemaB": "Arriendo de Maquinarias , Equipos de apoyo , Transporte  , servicios  , Suministro de Materiales Aridos.",
+        "tituloA": "Maquinarias y Transportes",
+        "someservices": "Algunos Servicios",
+        "more": "Revise Todos los Servicios"
+    },
+    "aljibes": {
+        "patente1": {
+            "nombre": "Camion Aljibe",
+            "descripciones": {
+                "basico": "Camion con prestaciones para el traslado de aguas industriales y riego",
+                "basico2": "Capacidades aproximada de 25.000m3"
+            },
+            "areastrabajo": {
+                "area1": "Transportes",
+                "area2": "Obras"
+            },
+            "serviciosentregados": {
+                "s1": {
+                    "nombre": "Arriendo"
+                },
+                "s2": {
+                    "nombre": "Transporte de Agua"
+                },
+                "s3": {
+                    "nombre": "Distribucion de Agua Industrial"
+                },
+                "s4": {
+                    "nombre": "Riego de areas Verdes"
+                }
+            }
+        }
+    },
+    "plumas": {
+        "patente1": {
+            "nombre": "Camion Pluma",
+            "descripciones": {
+                "basico": "Camion con capacidad de grua para  cargar y descargar elementos",
+                "basico2": "Capacidades aproximada de 7 toneladas"
+            },
+            "areastrabajo": {
+                "area1": "Transportes",
+                "area2": "Obras"
+            },
+            "serviciosentregados": {
+                "s1": {
+                    "nombre": "Arriendo"
+                },
+                "s2": {
+                    "nombre": "Izaje"
+                },
+                "s3": {
+                    "nombre": "Montaje Industrial"
+                },
+                "s4": {
+                    "nombre": "Transfer of loads"
+                },
+                "s5": {
+                    "nombre": "Equipment Transfer"
+                }
+            }
+        }
+    },
+    "bateas": {
+        "patente1": {
+            "nombre": "Camion Batea",
+            "descripciones": {
+                "basico": "Camion con capacidad Transporte de diversos materiales principalmente granulados.",
+                "basico2": "Capacidad de 20 cubos"
+            },
+            "areastrabajo": {
+                "area1": "Transportes",
+                "area2": "Obras",
+                "area3": "Mineria"
+            },
+            "serviciosentregados": {
+                "s1": {
+                    "nombre": "Arriendo"
+                },
+                "s2": {
+                    "nombre": "Transporte de Minerales Aridos "
+                },
+                "s3": {
+                    "nombre": "Transporte de Minerales Minerales"
+                }
+            }
+        }
+    },
+    "tolvas": {
+        "patente1": {
+            "nombre": "Camion Tolva",
+            "descripciones": {
+                "basico": "Camion con capacidad Transporte de diversos materiales principalmente granulados.",
+                "basico2": "Capacidades de 18 cubos"
+            },
+            "areastrabajo": {
+                "area1": "Transportes",
+                "area2": "Obras"
+            },
+            "serviciosentregados": {
+                "s1": {
+                    "nombre": "Arriendo"
+                },
+                "s2": {
+                    "nombre": "Traslado de Materiales Aridos"
+                },
+                "s3": {
+                    "nombre": "Asfalto"
+                },
+                "s4": {
+                    "nombre": "Retiro de Escombros"
+                },
+                "s5": {
+                    "nombre": "Limpieza de sitio"
+                },
+                "s6": {
+                    "nombre": "Relleno de Terrenos"
+                },
+                "s7": {
+                    "nombre": "Movimiento de Terrenos"
+                }
+            }
+        }
+    },
+    "porters": {
+        "patente1": {
+            "nombre": "Camion Porter",
+            "descripciones": {
+                "basico": "Porter 3/4 doble cabina para el transporte seguro de elementos y cargas en general.",
+                "basico2": "Capacidades del porter aproximada 2 toneladas ,"
+            },
+            "areastrabajo": {
+                "area1": "Transportes",
+                "area2": "Obras"
+            },
+            "serviciosentregados": {
+                "s1": {
+                    "nombre": "Arriendo"
+                }
+            }
+        }
+    },
+    "retroexcavadoras": {
+        "patente1": {
+            "nombre": "Maquina Retroexcavadora",
+            "descripciones": {
+                "basico": "Maquinaria de Construccion para diversos trabajos de excavación.",
+                "basico2": "Capacidades del retroexcavadora 1.2 m3"
+            },
+            "areastrabajo": {
+                "area1": "Obras"
+            },
+            "serviciosentregados": {
+                "s1": {
+                    "nombre": "Arriendo"
+                },
+                "s2": {
+                    "nombre": "Asfalto"
+                },
+                "s3": {
+                    "nombre": "Retiro de Escombros"
+                },
+                "s4": {
+                    "nombre": "Limpieza de sitio"
+                },
+                "s5": {
+                    "nombre": "Relleno de Terrenos"
+                },
+                "s6": {
+                    "nombre": "Movimiento de Tierra"
+                },
+                "s7": {
+                    "nombre": "Movimiento de Estanques de Agua"
+                },
+                "s8": {
+                    "nombre": "Demoliciones"
+                }
+            }
+        }
+    },
+    "Empresa": {
+        "titulo": "Nuestra Empresa",
+        "text1": "GeoTrans fundado en 2001 en el norte del Pais por Alfredo Cesar",
+        "text2": "10 Años de experiencia",
+        "text2a": "Nuestra Experiencia en Trabajos de Diversos Clientes nos permiten crear mejores politicas de trabajo , enfocandonos a la seguridad, productividad y transparencia",
+        "text3": "Nuestra Region",
+        "text4": "Construcciones",
+        "text5": "Independientes",
+        "text6": "Mineria",
+        "text7": "Obras viales",
+        "text8": "Obras Hidraulicas",
+        "btnServices": "Revise Nuestros Servicios",
+        "btnContact": "Contactenos"
+    },
+    "Servicios": {
+        "contact1": "Adjuntar lo seleccionado a su Cotizacion",
+        "contact2": "Ir a una cotizacion sin adjuntar servicios ni productos",
+        "msggo": "Cotizar Estos Servicios",
+        "msgusr": "Seleccione algunos Servicios o Productos para Cotizar-----------------",
+        "msgnalert": "Seleccione algun Producto o Servicio",
+        "cotizarlo": "Lista Cotizacion",
+        "ListadoTitle": "Listado de nueva cotización",
+        "primerFiltro": "Mostrando por Maquinarias",
+        "segundoFiltro": "Mostrando por Areas",
+        "parllxt1": "Ponemos a su disposición el arriendo de nuestros equipos y nuestros servicios acorde a cada una de sus necesidades.",
+        "titulo": "Nuestros Servicios",
+        "subtitulo": "Maquinarias y Transportes",
+        "text3": "Ponemos a su disposicion el arriendo de nuestros equipos y servicios acorde a sus necesidades",
+        "btnall": "Todos",
+        "btnTransport": "Transportes",
+        "btnObras": "Obras",
+        "btnArid": "Aridos",
+        "subtTransport": "Servicio Transporte",
+        "subObras": "Servicio Obras",
+        "subArid": "Venta Materiales Aridos",
+        "sA1": "Transporte Materiales aridos",
+        "sA2": "Transporte carga pesada",
+        "sA3": "Transporte carga pesada ",
+        "sA4": "Traslado de contenedores ",
+        "sB1": "Estanque de agua",
+        "sB2": "Limpieza de estanque ",
+        "sB3": "Construcciones de zanjas",
+        "sB4": "Remolque materiales",
+        "sB5": "Izajes",
+        "sC1": "Base granular",
+        "sC2": "Arena",
+        "sC3": "Gravilla",
+        "parllxt2": "Consulte por alguno de Nuestros Servicios",
+        "parllxt2b": "Trabajamos con  Empresas e Independientes"
+    },
+    "Contacto": {
+        "titulo": "Contactenos",
+        "subtitle": "Geotrans espera su mensaje  , complete este formulario para contactarnos",
+        "plus1": "Clientes",
+        "plus2": "Participacion de Proyectos",
+        "plus3": "Equipos de Trabajo",
+        "fmr1": "Nombre Persona o Empresa",
+        "fmr2": "Telefono",
+        "fmr3": "Correo",
+        "fmr4": "¿Quiere ser Explicar con mas detalles?",
+        "fmr5": "Listo",
+        "ModalA": "No ah selecionado ninguna Servicio/Producto",
+        "ModalB": "¿Desea buscar algo para agregarlo a su cotizacion?",
+        "ModalC": "No gracias",
+        "ModalD": "Si Quiero",
+        "formName": "Ingrese el nombre",
+        "formPhone": "Ingrese numero celular de contacto",
+        "formEmail": "Ingrese correo electronico"
+    },
+    "Blog": {
+        "titulo": "Blog y Noticias",
+        "subtitle": "Pensado en la Region y Nuestro sector"
+    },
+    "serviciosGeotrans": {
+        "1": {
+            "nombre": "Arriendo",
+            "cobro": "dia",
+            "precio": "9000"
+        },
+        "2": {
+            "nombre": "Transporte de Agua",
+            "cobro": "dia",
+            "precio": "9000"
+        },
+        "3": {
+            "nombre": "Distribuidora de Agua Industrial",
+            "cobro": "dia",
+            "precio": "9000"
+        },
+        "4": {
+            "nombre": "Riego Areas Verdes",
+            "cobro": "dia",
+            "precio": "9000"
+        },
+        "5": {
+            "nombre": "Transporte de Minerales",
+            "cobro": "dia",
+            "precio": "9000"
+        },
+        "6": {
+            "nombre": "Movimiento de Materiales Aridos",
+            "cobro": "dia",
+            "precio": "9000"
+        },
+        "7": {
+            "nombre": "Izajes",
+            "cobro": "dia",
+            "precio": "9000"
+        },
+        "8": {
+            "nombre": "Montaje Industrial",
+            "cobro": "dia",
+            "precio": "9000"
+        },
+        "9": {
+            "nombre": "Traslado de Cargas",
+            "cobro": "dia",
+            "precio": "9000"
+        },
+        "10": {
+            "nombre": "Traslado de Equipos",
+            "cobro": "dia",
+            "precio": "9000"
+        },
+        "11": {
+            "nombre": "Asfalto",
+            "cobro": "dia",
+            "precio": "9000"
+        },
+        "12": {
+            "nombre": "Retiro de Escombros",
+            "cobro": "dia",
+            "precio": "9000"
+        },
+        "13": {
+            "nombre": "Limpieza de Sitio",
+            "cobro": "dia",
+            "precio": "9000"
+        },
+        "14": {
+            "nombre": "Relleno de Terreno",
+            "cobro": "dia",
+            "precio": "9000"
+        },
+        "15": {
+            "nombre": "Movimiento de Tierra",
+            "cobro": "dia",
+            "precio": "9000"
+        },
+        "16": {
+            "nombre": "Movimiento Estanque de Agua",
+            "cobro": "dia",
+            "precio": "9000"
+        },
+        "17": {
+            "nombre": "Demoliciones",
+            "cobro": "dia",
+            "precio": "9000"
+        }
+    }
+}

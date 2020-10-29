@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:900");
+
+.wrap-trasparent {
+  background: url(https://isha.sadhguru.org/blog/wp-content/uploads/2016/05/natures-temples.jpg)
+    center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.transparent-text {
+    background-color: #fff;
+    color: #000;
+    /* the magic property */
+    mix-blend-mode: screen;
+}
