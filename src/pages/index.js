@@ -37,7 +37,7 @@ const IndexPage = props => {
   // REACT CONTEXT// REACT CONTEXT// REACT CONTEXT// REACT CONTEXT// REACT CONTEXT// REACT CONTEXT
   const [cart, setcart] = useContext(CartContext)
   // REACT CONTEXT// REACT CONTEXT// REACT CONTEXT// REACT CONTEXT// REACT CONTEXT// REACT CONTEXT
-  var imgOptimizedTrucks = props.data.allFile.nodes
+  var imgOptimizedTrucks = props?.data?.allFile?.nodes
   // console.log(imagesPerformace)
 
   return (
