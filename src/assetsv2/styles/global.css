@@ -1,0 +1,116 @@
+/*===============================
+  Base Configuration
+================================*/
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+/* ===============================
+   Custom Fonts - Local
+================================= */
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("@fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+  /* font-weight: 100; */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("@fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+  /* font-weight: 100; */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Blader";
+  src: url("@fonts/Blader/Blader.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*===============================
+  CSS Custom Properties (Variables)
+================================*/
+:root {
+  --primary-color: #ff6e40;
+  --primary-hover: #ffa06d;
+  --secondary-color: #007b5e;
+  --secondary-hover: #108d6f;
+  --white-background: #fafafa;
+  --background-dark: #001b27;
+  --border-color: #dee2e6;
+  --shadow-color: rgba(158, 158, 158, 0.3);
+}
+* {
+  /* border: 1px solid black; */
+}
+
+/*===============================
+  Links (Global Link Styles)
+================================*/
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+}
+
+.nolinkeffect {
+  text-decoration: none;
+}
+
+.nolinkeffect:hover {
+  text-decoration: none;
+}
+
+/*===============================
+  Utility Classes
+================================*/
+.linksimple {
+  color: var(--white-background);
+  text-decoration: none;
+}
+
+.linksimple:hover {
+  color: var(--white-background);
+  text-decoration: none;
+}
+
+.linksencillo {
+  color: var(--primary-hover);
+  text-decoration: none;
+}
+
+.linksencillo:hover {
+  color: var(--primary-hover);
+  text-decoration: none;
+}
+
+/*===============================
+  Sections (Global Section Styles)
+================================*/
+section {
+  padding: 6rem 0;
+}
+
+section .section-title {
+  text-align: center;
+  color: var(--secondary-color);
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+}
+
+/*===============================
+  Responsive Design (Global Breakpoints)
+================================*/
+@media (max-width: 768px) {
+  section {
+    padding: 3rem 0;
+  }
+}

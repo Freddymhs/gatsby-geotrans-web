@@ -1,11 +1,5 @@
-import React from "react"
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "@styles/global.css";
 
-//traigo el proveedor
-import { CartProvider } from "./src/context/CartContext"
-
-// regreso esto armado  con el PROVEEDOR
-export const wrapRootElement = ({ element }) => (
-  <CartProvider>{element}</CartProvider>
-)
-
-// CustomerChat
+export const wrapRootElement = ({ element }) => element;

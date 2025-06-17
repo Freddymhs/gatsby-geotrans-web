@@ -1,12 +1,8 @@
-import React from "react"
+import React from "react";
 
-//traigo el proveedor
-import { CartProvider } from "./src/context/CartContext"
-// import { CustomerChat } from "./src/components/ComponentesGlobales/CustomerChat"
-// regreso esto armado  con el PROVEEDOR
+import { CartProvider } from "./src/removeme/context/CartContext";
 export const wrapRootElement = ({ element }) => (
   <>
-    {/* <CustomerChat /> */}
     <CartProvider>{element}</CartProvider>
   </>
-)
+);
