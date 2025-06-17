@@ -1,0 +1,605 @@
+{
+  "elidioma": "English",
+  "headertop": {
+    "dias": "Monday-Friday",
+    "horas": "8:00 AM 8:00 PM"
+  },
+  "datosgeotrans": {
+    "email": "tadmgeo@gmail.com",
+    "telefono": "+56 9 7560 7391",
+    "social": "Facebook",
+    "ubicacion": "Arica, Chile",
+    "pagina": "https://geotrans.vercel.app",
+    "emailContact": "mailto:tadmgeo@gmail.com",
+    "facebookContact": "https://www.facebook.com/MaquinariasGeotrans",
+    "telefonoContact": "tel:56975607391",
+    "linkedinContact": "https://cl.linkedin.com/company/MaquinariasGeotrans/",
+    "whatsapContact": "https://wa.me/56975607391",
+    "txtFacebook": "Find us on Facebook"
+  },
+  "footer": {
+    "contact": "Contact Us",
+    "cotizar": "Quote",
+    "redes": "Social Media",
+    "location": "Location",
+    "machines": "Machinery",
+    "services": "Services",
+    "nav": "Navigate"
+  },
+  "idioma": "english",
+  "header": {
+    "title": "GEOTRANS",
+    "subtitle": "Machinery and Transportation",
+    "Home": "Home",
+    "About Us": "About Us",
+    "Services": "Services",
+    "Contact": "Contact",
+    "Contact us": "Contact Us",
+    "Work with us": "Work with Us",
+    "News": "News"
+  },
+  "portada": {
+    "paragraph1": "10 years in the sector.",
+    "paragraph2": "Start your project now with",
+    "paragraph2b": " GEOTRANS",
+    "paragraph3": "Services focused on ",
+    "paragraphA": " Transportation",
+    "paragraphB": " Civil Works",
+    "paragraphC": " Construction"
+  },
+  "Maquinarias": {
+    "lemaA": "Specialized in the needs of Our Region",
+    "lemaB": "Machinery Rental, Support Equipment, Transportation, Services, Supply of Aggregate Materials.",
+    "tituloA": "Machinery and Transportation",
+    "someservices": "Some Services",
+    "more": "Check All Services"
+  },
+  "aljibes": {
+    "patente1": {
+      "nombre": "Water Tank Truck",
+      "descripciones": {
+        "basico": "Specialized tank truck for transport and distribution of potable, industrial and irrigation water",
+        "basico2": "25,000 liter capacity (25m³) with integrated pressure pump",
+        "tecnicas": "Stainless steel tank, 150 PSI centrifugal pump, 50m high-pressure hoses"
+      },
+      "areastrabajo": {
+        "area1": "Water Transportation",
+        "area2": "Construction and Works",
+        "area3": "Mining",
+        "area4": "Agriculture and Irrigation"
+      },
+      "serviciosentregados": {
+        "s1": {
+          "nombre": "Rental with Operator",
+          "descripcion": "Complete service with specialized driver"
+        },
+        "s2": {
+          "nombre": "Potable Water Supply",
+          "descripcion": "Supply for mining operations and camps"
+        },
+        "s3": {
+          "nombre": "Industrial Water Distribution",
+          "descripcion": "Transport for industrial processes and equipment washing"
+        },
+        "s4": {
+          "nombre": "Green Area Irrigation",
+          "descripcion": "Maintenance of gardens and public spaces"
+        },
+        "s5": {
+          "nombre": "Dust Control",
+          "descripcion": "Road and surface humidification in operations"
+        },
+        "s6": {
+          "nombre": "Pool and Tank Filling",
+          "descripcion": "Supply for construction and maintenance"
+        }
+      },
+      "certificaciones": {
+        "c1": "Sanitary certification for potable water",
+        "c2": "Current technical inspection",
+        "c3": "Mandatory insurance and comprehensive policy"
+      }
+    }
+  },
+  "plumas": {
+    "patente1": {
+      "nombre": "Crane Truck",
+      "descripciones": {
+        "basico": "Truck with hydraulic crane for lifting, assembly and transport of heavy loads",
+        "basico2": "7-ton lifting capacity, 12-meter maximum reach",
+        "tecnicas": "Hydraulic crane with outriggers, certified hook, remote controls"
+      },
+      "areastrabajo": {
+        "area1": "Specialized Transportation",
+        "area2": "Construction and Works",
+        "area3": "Industrial Assembly",
+        "area4": "Mining"
+      },
+      "serviciosentregados": {
+        "s1": {
+          "nombre": "Rental with Certified Operator",
+          "descripcion": "Service with SENCE certified crane operator"
+        },
+        "s2": {
+          "nombre": "Industrial Lifting and Assembly",
+          "descripcion": "Installation of equipment, metal structures and machinery"
+        },
+        "s3": {
+          "nombre": "Container Loading and Unloading",
+          "descripcion": "Container and special cargo handling"
+        },
+        "s4": {
+          "nombre": "Heavy Equipment Transportation",
+          "descripcion": "Transport of machinery and heavy elements"
+        },
+        "s5": {
+          "nombre": "Industrial Rescue Services",
+          "descripcion": "Equipment and vehicle recovery"
+        },
+        "s6": {
+          "nombre": "Prefabricated Structure Assembly",
+          "descripcion": "Installation of warehouses, modular offices"
+        }
+      },
+      "certificaciones": {
+        "c1": "Certified operator in crane handling",
+        "c2": "Current crane technical inspection",
+        "c3": "Civil liability insurance for third-party damages"
+      }
+    }
+  },
+  "bateas": {
+    "patente1": {
+      "nombre": "Flatbed Truck",
+      "descripciones": {
+        "basico": "Cargo truck with reinforced flatbed for transport of aggregates and minerals",
+        "basico2": "20m³ loading capacity, rear discharge hopper",
+        "tecnicas": "Reinforced steel flatbed, hydraulic tipping system, protective tarp"
+      },
+      "areastrabajo": {
+        "area1": "Aggregate Transportation",
+        "area2": "Construction and Public Works",
+        "area3": "Mining",
+        "area4": "Demolition"
+      },
+      "serviciosentregados": {
+        "s1": {
+          "nombre": "Hourly/Daily Rental",
+          "descripcion": "Flexible service with driver"
+        },
+        "s2": {
+          "nombre": "Aggregate Transportation (Sand, Gravel, Stone)",
+          "descripcion": "Supply for construction and road works"
+        },
+        "s3": {
+          "nombre": "Mineral Transportation",
+          "descripcion": "Transfer of mining material from operations"
+        },
+        "s4": {
+          "nombre": "Debris and Waste Removal",
+          "descripcion": "Cleaning of works and demolitions"
+        },
+        "s5": {
+          "nombre": "Fill Material Supply",
+          "descripcion": "Sand, topsoil for leveling"
+        }
+      },
+      "certificaciones": {
+        "c1": "Current emissions certificate",
+        "c2": "Driver's A4 license",
+        "c3": "Mandatory insurance and cargo policy"
+      }
+    }
+  },
+  "tolvas": {
+    "patente1": {
+      "nombre": "Hopper Truck",
+      "descripciones": {
+        "basico": "Hopper truck for efficient transport of granulated and semi-liquid materials",
+        "basico2": "18m³ capacity, gravity discharge system and rear gate",
+        "tecnicas": "Anti-corrosive alloy hopper, hermetic gates, pneumatic system"
+      },
+      "areastrabajo": {
+        "area1": "Specialized Transportation",
+        "area2": "Road Construction",
+        "area3": "Urban Works",
+        "area4": "Non-Metallic Mining"
+      },
+      "serviciosentregados": {
+        "s1": {
+          "nombre": "Comprehensive Rental",
+          "descripcion": "Complete service with specialized operator"
+        },
+        "s2": {
+          "nombre": "Fine Aggregate Transportation",
+          "descripcion": "Fine sand, gravel, selected material"
+        },
+        "s3": {
+          "nombre": "Cold Asphalt Distribution",
+          "descripcion": "Application for patching and road maintenance"
+        },
+        "s4": {
+          "nombre": "Fine Debris Removal",
+          "descripcion": "Demolition waste cleanup"
+        },
+        "s5": {
+          "nombre": "Industrial Cleaning",
+          "descripcion": "Particulate material and waste removal"
+        },
+        "s6": {
+          "nombre": "Filling and Leveling",
+          "descripcion": "Precise distribution of granular material"
+        },
+        "s7": {
+          "nombre": "Controlled Earth Movement",
+          "descripcion": "Transport for precision works"
+        },
+        "s8": {
+          "nombre": "Industrial Salt Transportation",
+          "descripcion": "Supply for de-icing and chemical processes"
+        }
+      },
+      "certificaciones": {
+        "c1": "Certification for special material transport",
+        "c2": "Calibrated weighing system",
+        "c3": "Cleaning protocols between loads"
+      }
+    }
+  },
+  "porters": {
+    "patente1": {
+      "nombre": "Porter 3/4 Truck",
+      "descripciones": {
+        "basico": "Light double cab truck for safe transport of personnel, tools and light cargo",
+        "basico2": "2-ton loading capacity, double cab for 5 passengers",
+        "tecnicas": "Reinforced box, removable sides, tie-down system, optional cover"
+      },
+      "areastrabajo": {
+        "area1": "Personnel Transportation",
+        "area2": "Technical Services",
+        "area3": "Urban Distribution",
+        "area4": "Logistical Support"
+      },
+      "serviciosentregados": {
+        "s1": {
+          "nombre": "Daily/Weekly Rental",
+          "descripcion": "Flexible service with or without driver"
+        },
+        "s2": {
+          "nombre": "Personnel Transportation to Sites",
+          "descripcion": "Safe worker transport"
+        },
+        "s3": {
+          "nombre": "Tool and Parts Distribution",
+          "descripcion": "Logistics for industrial maintenance"
+        },
+        "s4": {
+          "nombre": "Mobile Maintenance Services",
+          "descripcion": "Field technical support"
+        },
+        "s5": {
+          "nombre": "Light Material Transportation",
+          "descripcion": "General cargo, office materials"
+        },
+        "s6": {
+          "nombre": "Work Supervision",
+          "descripcion": "Vehicle for technical inspections"
+        }
+      },
+      "certificaciones": {
+        "c1": "Current technical inspection",
+        "c2": "Mandatory and third-party insurance",
+        "c3": "Driver's A2 license"
+      }
+    }
+  },
+  "retroexcavadoras": {
+    "patente1": {
+      "nombre": "Hydraulic Excavator",
+      "descripciones": {
+        "basico": "Versatile heavy machinery for excavation, loading, demolition and earth moving",
+        "basico2": "1.2m³ bucket capacity, 20-ton operating weight, 9.5m maximum reach",
+        "tecnicas": "150HP diesel engine, high-pressure hydraulic system, air-conditioned cab, rubber track undercarriage"
+      },
+      "areastrabajo": {
+        "area1": "Construction and Civil Works",
+        "area2": "Surface Mining",
+        "area3": "Road and Urban Works",
+        "area4": "Agriculture and Irrigation",
+        "area5": "Industrial Demolition",
+        "area6": "Municipal Services"
+      },
+      "serviciosentregados": {
+        "s1": {
+          "nombre": "Rental with Certified Operator",
+          "descripcion": "Complete service with specialized operator and fuel included"
+        },
+        "s2": {
+          "nombre": "Foundation Excavation",
+          "descripcion": "Precise excavation for foundations, footings and infrastructure works"
+        },
+        "s3": {
+          "nombre": "Irrigation Channel Construction",
+          "descripcion": "Excavation and profiling of channels for agriculture in Arica valleys"
+        },
+        "s4": {
+          "nombre": "Massive Earth Movement",
+          "descripcion": "Leveling, cuts and fills for urbanizations and road works"
+        },
+        "s5": {
+          "nombre": "Controlled Demolition",
+          "descripcion": "Demolition of concrete structures, walls and buildings"
+        },
+        "s6": {
+          "nombre": "Site Cleaning and Preparation",
+          "descripcion": "Clearing, leveling and preparation for construction"
+        },
+        "s7": {
+          "nombre": "Truck Loading",
+          "descripcion": "Efficient loading of aggregates, debris and excavated material"
+        },
+        "s8": {
+          "nombre": "Debris Removal and Handling",
+          "descripcion": "Work cleanup, loading and classification of construction waste"
+        },
+        "s9": {
+          "nombre": "Service Trench Excavation",
+          "descripcion": "Trenches for water, sewage and cable installation"
+        },
+        "s10": {
+          "nombre": "Underground Tank Installation",
+          "descripcion": "Excavation and positioning of water and fuel tanks"
+        },
+        "s11": {
+          "nombre": "Industrial Landscaping Work",
+          "descripcion": "Earth movement for gardens, plazas and green areas"
+        },
+        "s12": {
+          "nombre": "Mining Road Opening",
+          "descripcion": "Construction of access roads for operations and mining camps"
+        },
+        "s13": {
+          "nombre": "Channel Maintenance",
+          "descripcion": "Cleaning of ravines and rainwater drainage channels"
+        },
+        "s14": {
+          "nombre": "Container Loading and Unloading",
+          "descripcion": "Container handling at port and Arica free zone"
+        },
+        "s15": {
+          "nombre": "Emergency Work",
+          "descripcion": "Rapid response for landslides, floods and natural disasters"
+        }
+      },
+      "accesorios_disponibles": {
+        "a1": {
+          "nombre": "Hydraulic Hammer",
+          "descripcion": "For demolition of pavements and concrete structures"
+        },
+        "a2": {
+          "nombre": "Narrow Digging Bucket",
+          "descripcion": "Trench excavation from 30cm to 120cm wide"
+        },
+        "a3": {
+          "nombre": "Trapezoidal Bucket",
+          "descripcion": "For channel and ditch excavation with slopes"
+        },
+        "a4": {
+          "nombre": "Compactor Attachment",
+          "descripcion": "Soil compaction in confined spaces"
+        },
+        "a5": {
+          "nombre": "Sorting Rake",
+          "descripcion": "Material separation and classification"
+        }
+      },
+      "especificaciones_tecnicas": {
+        "motor": "Turbo diesel 150HP, Tier 3 meets environmental standards",
+        "sistema_hidraulico": "Flow 310 L/min, maximum pressure 350 bar",
+        "capacidades": {
+          "balde_estandar": "1.2m³",
+          "balde_maximo": "1.8m³ with accessories",
+          "alcance_horizontal": "9.5m",
+          "profundidad_excavacion": "6.2m",
+          "altura_descarga": "6.8m"
+        },
+        "movilidad": "Travel speed 5.5 km/h, maximum gradient 35°"
+      },
+      "certificaciones": {
+        "c1": "SENCE certified operator in heavy machinery handling",
+        "c2": "Current technical inspection for heavy machinery",
+        "c3": "Emissions certificate and environmental compliance",
+        "c4": "Civil liability and comprehensive operational insurance",
+        "c5": "Mining and industrial safety protocols"
+      },
+      "condiciones_especiales_norte": {
+        "adaptacion_clima": "Reinforced cooling system for high desert temperatures",
+        "filtros_especiales": "High-efficiency air filters for dusty environment",
+        "mantenimiento": "Intensive maintenance program for extreme conditions",
+        "horarios_trabajo": "Available for night work in summer"
+      },
+      "sectores_especializados": {
+        "mineria": "Experience in copper operations, waste dump preparation, mining access",
+        "agricultura": "Specialization in irrigation channels, Azapa and Lluta valleys",
+        "portuario": "Work in port area and Arica free zone",
+        "fronterizo": "Knowledge of regulations for work near international borders"
+      }
+    }
+  },
+  "Empresa": {
+    "titulo": "Our Company",
+    "text1": "GeoTrans founded in 2001 in the north of the country by Alfredo Cesar",
+    "text2": "10 Years of experience",
+    "text2a": "Our experience in work with various clients allows us to create better work policies, focusing on safety, productivity and transparency",
+    "text3": "Our Region",
+    "text4": "Construction",
+    "text5": "Independent",
+    "text6": "Mining",
+    "text7": "Road Works",
+    "text8": "Hydraulic Works",
+    "btnServices": "Check Our Services",
+    "btnContact": "Contact Us"
+  },
+  "Servicios": {
+    "contact1": "Attach selected items to your Quote",
+    "contact2": "Go to a quote without attaching services or products",
+    "msggo": "Quote These Services",
+    "msgusr": "Select some Services or Products to Quote-----------------",
+    "msgnalert": "Select some Product or Service",
+    "cotizarlo": "Quote List",
+    "ListadoTitle": "New quote listing",
+    "primerFiltro": "Showing by Machinery",
+    "segundoFiltro": "Showing by Areas",
+    "parllxt1": "We put at your disposal the rental of our equipment and our services according to each of your needs.",
+    "titulo": "Our Services",
+    "subtitulo": "Machinery and Transportation",
+    "text3": "We put at your disposal the rental of our equipment and services according to your needs",
+    "btnall": "All",
+    "btnTransport": "Transportation",
+    "btnObras": "Works",
+    "btnArid": "Aggregates",
+    "subtTransport": "Transportation Service",
+    "subObras": "Works Service",
+    "subArid": "Aggregate Materials Sale",
+    "sA1": "Aggregate material transportation",
+    "sA2": "Heavy cargo transportation",
+    "sA3": "Heavy cargo transportation",
+    "sA4": "Container transportation",
+    "sB1": "Water tank",
+    "sB2": "Tank cleaning",
+    "sB3": "Trench construction",
+    "sB4": "Material hauling",
+    "sB5": "Lifting",
+    "sC1": "Granular base",
+    "sC2": "Sand",
+    "sC3": "Gravel",
+    "parllxt2": "Ask about any of Our Services",
+    "parllxt2b": "We work with Companies and Independents"
+  },
+  "Contacto": {
+    "titulo": "Contact Us",
+    "subtitle": "GEOTRANS awaits your message, complete this form to contact us",
+    "plus1": "Clients",
+    "plus2": "Project Participation",
+    "plus3": "Work Teams",
+    "fmr1": "Person or Company Name",
+    "fmr2": "Phone",
+    "fmr3": "Email",
+    "fmr4": "Would you like to explain in more detail?",
+    "fmr5": "Ready",
+    "ModalA": "You have not selected any Service/Product",
+    "ModalB": "Would you like to search for something to add to your quote?",
+    "ModalC": "No thanks",
+    "ModalD": "Yes I want to",
+    "formName": "Enter the name",
+    "formPhone": "Enter contact cell phone number",
+    "formEmail": "Enter email address",
+    "sendProject": "Send your project",
+    "responseTime": "Tell us about your project and we will respond in less than 24 hours",
+    "form": {
+      "fullName": "Full Name *",
+      "phone": "Phone *",
+      "company": "Company *",
+      "email": "Email Address *",
+      "moreAbout": "Tell us about your project... *",
+      "success": "Message sent successfully! We will contact you soon.",
+      "error": "Error sending message. Please try again.",
+      "sending": "Sending Message...",
+      "send": "Send Message"
+    },
+    "trustedCompany": "Companies that trust us",
+    "workTogether": "Let's Work Together",
+    "transform": "We transform ideas into real solutions"
+  },
+  "Blog": {
+    "titulo": "Blog and News",
+    "subtitle": "Focused on the Region and Our sector"
+  },
+  "serviciosGeotrans": {
+    "1": {
+      "nombre": "Rental",
+      "cobro": "day",
+      "precio": "9000"
+    },
+    "2": {
+      "nombre": "Water Transportation",
+      "cobro": "day",
+      "precio": "9000"
+    },
+    "3": {
+      "nombre": "Industrial Water Distribution",
+      "cobro": "day",
+      "precio": "9000"
+    },
+    "4": {
+      "nombre": "Green Area Irrigation",
+      "cobro": "day",
+      "precio": "9000"
+    },
+    "5": {
+      "nombre": "Mineral Transportation",
+      "cobro": "day",
+      "precio": "9000"
+    },
+    "6": {
+      "nombre": "Aggregate Material Movement",
+      "cobro": "day",
+      "precio": "9000"
+    },
+    "7": {
+      "nombre": "Lifting",
+      "cobro": "day",
+      "precio": "9000"
+    },
+    "8": {
+      "nombre": "Industrial Assembly",
+      "cobro": "day",
+      "precio": "9000"
+    },
+    "9": {
+      "nombre": "Cargo Transportation",
+      "cobro": "day",
+      "precio": "9000"
+    },
+    "10": {
+      "nombre": "Equipment Transportation",
+      "cobro": "day",
+      "precio": "9000"
+    },
+    "11": {
+      "nombre": "Asphalt",
+      "cobro": "day",
+      "precio": "9000"
+    },
+    "12": {
+      "nombre": "Debris Removal",
+      "cobro": "day",
+      "precio": "9000"
+    },
+    "13": {
+      "nombre": "Site Cleaning",
+      "cobro": "day",
+      "precio": "9000"
+    },
+    "14": {
+      "nombre": "Land Fill",
+      "cobro": "day",
+      "precio": "9000"
+    },
+    "15": {
+      "nombre": "Earth Movement",
+      "cobro": "day",
+      "precio": "9000"
+    },
+    "16": {
+      "nombre": "Water Tank Movement",
+      "cobro": "day",
+      "precio": "9000"
+    },
+    "17": {
+      "nombre": "Demolitions",
+      "cobro": "day",
+      "precio": "9000"
+    }
+  }
+}

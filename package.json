@@ -1,65 +1,65 @@
 {
   "name": "geotrans-landingpage",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Landing page Gatsby optimizada",
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "scripts": {
+    "vercel-build": "node -v && npm -v && gatsby build",
+    "dev": "npx kill-port 8000 && gatsby develop && xdg-open http://localhost:8000",
+    "build": "gatsby build",
+    "analyze:unused": "npx depcheck",
+    "audit": "npm audit",
+    "list:scripts": "npm run",
+    "clean": "rm -rf node_modules package-lock.json .cache public",
+    "removecache": "rm -rf .cache public",
+    "installpackages": "npm i --legacy-peer-deps",
+    "check": "npx depcheck"
+  },
   "dependencies": {
-    "@dontepsu/gatsby-plugin-awesome-i18next": "^1.7.0",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
     "bootstrap": "^5.3.3",
+    "dotenv": "^16.5.0",
     "emailjs-com": "^3.2.0",
-    "emotion": "^11.0.0",
     "formik": "^2.4.6",
-    "fslightbox-react": "^1.7.6",
     "gatsby": "^5.13.6",
     "gatsby-image": "^3.11.0",
-    "gatsby-plugin-facebook-customer-chat": "^1.0.2",
-    "gatsby-plugin-i18n": "^1.0.1",
     "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-offline": "^6.13.2",
-    "gatsby-plugin-react-helmet": "^6.13.1",
     "gatsby-plugin-react-i18next": "^3.0.1",
     "gatsby-plugin-sharp": "^5.13.1",
-    "gatsby-plugin-whatshelp": "^1.0.0",
-    "gatsby-source-facebook": "^2.0.1",
     "gatsby-source-filesystem": "^5.13.1",
-    "gatsby-source-mysql2": "^0.1.0",
-    "gatsby-source-pg": "^1.0.0-rc.0",
     "gatsby-source-sqlite": "^1.0.0",
     "gatsby-transformer-sharp": "^5.13.1",
-    "i18next": "^23.11.5",
-    "node-gyp-build": "^4.8.1",
-    "process": "^0.11.10",
+    "i18next": "^22.0.6",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
-    "react-awesome-slider": "^4.1.0",
     "react-bootstrap": "^2.10.3",
     "react-dom": "^18.3.1",
-    "react-helmet": "^6.1.0",
     "react-i18next": "^14.1.2",
-    "react-lightbox-component": "^1.2.1",
     "react-multi-carousel": "^2.8.5",
     "react-parallax": "^3.5.1",
-    "react-pure-modal": "^2.2.5",
     "react-styled-carousel": "^0.5.1",
-    "reactjs-videobg": "^1.3.0",
+    "sqlite3": "^5.1.7",
     "styled-components": "^6.1.11"
   },
+  "engines": {
+    "node": "22.12.0"
+  },
   "devDependencies": {
-    "prettier": "2.0.5"
+    "depcheck": "^1.4.3"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "landingpage",
+    "i18n",
+    "seo"
   ],
-  "license": "0BSD",
-  "scripts": {
-    "dev": "gatsby develop",
-    "clean": "gatsby clean",
-    "build": "gatsby build"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/Freddymhs/gatsby-geotrans-web"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

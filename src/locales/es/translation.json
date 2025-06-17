@@ -1,0 +1,605 @@
+{
+  "elidioma": "Español",
+  "headertop": {
+    "dias": "Lunes-Viernes",
+    "horas": "8:00 AM 8:00 PM"
+  },
+  "datosgeotrans": {
+    "email": "tadmgeo@gmail.com",
+    "telefono": "+56 9 7560 7391",
+    "social": "Facebook",
+    "ubicacion": "Arica , Chile",
+    "pagina": "https://geotrans.vercel.app",
+    "emailContact": "mailto:tadmgeo@gmail.com",
+    "facebookContact": "https://www.facebook.com/MaquinariasGeotrans",
+    "telefonoContact": "tel:56975607391",
+    "linkedinContact": "https://cl.linkedin.com/company/MaquinariasGeotrans/",
+    "whatsapContact": "https://wa.me/56975607391",
+    "txtFacebook": "Conocenos en Facebook"
+  },
+  "footer": {
+    "contact": "Conctactenos",
+    "cotizar": "Cotizacion",
+    "redes": "Redes sociales",
+    "location": "Ubicacion",
+    "machines": "Maquinarias",
+    "services": "Servicios",
+    "nav": "Navega"
+  },
+  "idioma": "español",
+  "header": {
+    "title": "GEOTRANS",
+    "subtitle": "Maquinarias y Transportes",
+    "Home": "Inicio",
+    "About Us": "Nosotros",
+    "Services": "Servicios",
+    "Contact": "Contacto",
+    "Contact us": "Contactenos",
+    "Work with us": "Trabaje con Nosotros",
+    "News": "Noticias"
+  },
+  "portada": {
+    "paragraph1": "10 años en el Sector.",
+    "paragraph2": "Comienza tu proyecto ahora con",
+    "paragraph2b": " GEOTRANS",
+    "paragraph3": "Servicios enfocados a ",
+    "paragraphA": " Transporte",
+    "paragraphB": " Obras Civiles",
+    "paragraphC": " Construcción"
+  },
+  "Maquinarias": {
+    "lemaA": "Especializados en las necesidades de Nuestra Region",
+    "lemaB": "Arriendo de Maquinarias , Equipos de apoyo , Transporte  , servicios  , Suministro de Materiales Aridos.",
+    "tituloA": "Maquinarias y Transportes",
+    "someservices": "Algunos Servicios",
+    "more": "Revise Todos los Servicios"
+  },
+  "aljibes": {
+    "patente1": {
+      "nombre": "Camión Aljibe",
+      "descripciones": {
+        "basico": "Camión cisterna especializado para transporte y distribución de agua potable, industrial y de riego",
+        "basico2": "Capacidad de 25.000 litros (25m³) con bomba de presión integrada",
+        "tecnicas": "Cisterna de acero inoxidable, bomba centrífuga 150 PSI, mangueras de alta presión 50m"
+      },
+      "areastrabajo": {
+        "area1": "Transporte de Agua",
+        "area2": "Construcción y Obras",
+        "area3": "Minería",
+        "area4": "Agricultura y Riego"
+      },
+      "serviciosentregados": {
+        "s1": {
+          "nombre": "Arriendo con Operador",
+          "descripcion": "Servicio completo con conductor especializado"
+        },
+        "s2": {
+          "nombre": "Suministro de Agua Potable",
+          "descripcion": "Abastecimiento para faenas mineras y campamentos"
+        },
+        "s3": {
+          "nombre": "Distribución de Agua Industrial",
+          "descripcion": "Transporte para procesos industriales y lavado de equipos"
+        },
+        "s4": {
+          "nombre": "Riego de Áreas Verdes",
+          "descripcion": "Mantenimiento de jardines y espacios públicos"
+        },
+        "s5": {
+          "nombre": "Control de Polvo",
+          "descripcion": "Humectación de caminos y superficies en faenas"
+        },
+        "s6": {
+          "nombre": "Llenado de Piscinas y Estanques",
+          "descripcion": "Suministro para construcción y mantención"
+        }
+      },
+      "certificaciones": {
+        "c1": "Certificación sanitaria para agua potable",
+        "c2": "Revisión técnica vigente",
+        "c3": "Seguro obligatorio y póliza todo riesgo"
+      }
+    }
+  },
+  "plumas": {
+    "patente1": {
+      "nombre": "Camión Grúa (Pluma)",
+      "descripciones": {
+        "basico": "Camión con grúa hidráulica para izaje, montaje y transporte de cargas pesadas",
+        "basico2": "Capacidad de izaje 7 toneladas, alcance máximo 12 metros",
+        "tecnicas": "Grúa hidráulica con estabilizadores, gancho certificado, controles remotos"
+      },
+      "areastrabajo": {
+        "area1": "Transporte Especializado",
+        "area2": "Construcción y Obras",
+        "area3": "Montaje Industrial",
+        "area4": "Minería"
+      },
+      "serviciosentregados": {
+        "s1": {
+          "nombre": "Arriendo con Operador Certificado",
+          "descripcion": "Servicio con gruero certificado SENCE"
+        },
+        "s2": {
+          "nombre": "Izaje y Montaje Industrial",
+          "descripcion": "Instalación de equipos, estructuras metálicas y maquinaria"
+        },
+        "s3": {
+          "nombre": "Carga y Descarga de Contenedores",
+          "descripcion": "Manipulación de containers y cargas especiales"
+        },
+        "s4": {
+          "nombre": "Traslado de Equipos Pesados",
+          "descripcion": "Transporte de maquinaria y elementos de gran peso"
+        },
+        "s5": {
+          "nombre": "Servicios de Rescate Industrial",
+          "descripcion": "Recuperación de equipos y vehículos"
+        },
+        "s6": {
+          "nombre": "Montaje de Estructuras Prefabricadas",
+          "descripcion": "Instalación de galpones, oficinas modulares"
+        }
+      },
+      "certificaciones": {
+        "c1": "Operador certificado en manejo de grúas",
+        "c2": "Inspección técnica de grúa vigente",
+        "c3": "Seguro de responsabilidad civil por daños a terceros"
+      }
+    }
+  },
+  "bateas": {
+    "patente1": {
+      "nombre": "Camión Batea",
+      "descripciones": {
+        "basico": "Camión de carga con batea reforzada para transporte de materiales áridos y minerales",
+        "basico2": "Capacidad de carga 20m³, tolva de descarga trasera",
+        "tecnicas": "Batea de acero reforzado, sistema hidráulico de volteo, lona de protección"
+      },
+      "areastrabajo": {
+        "area1": "Transporte de Áridos",
+        "area2": "Construcción y Obras Públicas",
+        "area3": "Minería",
+        "area4": "Demolición"
+      },
+      "serviciosentregados": {
+        "s1": {
+          "nombre": "Arriendo por Hora/Día",
+          "descripcion": "Servicio flexible con conductor"
+        },
+        "s2": {
+          "nombre": "Transporte de Áridos (Arena, Ripio, Grava)",
+          "descripcion": "Suministro para construcción y obras viales"
+        },
+        "s3": {
+          "nombre": "Transporte de Minerales",
+          "descripcion": "Traslado de material minero desde faenas"
+        },
+        "s4": {
+          "nombre": "Retiro de Escombros y Desmonte",
+          "descripcion": "Limpieza de obras y demoliciones"
+        },
+        "s5": {
+          "nombre": "Suministro de Material de Relleno",
+          "descripcion": "Arena, tierra de hoja para nivelación"
+        }
+      },
+      "certificaciones": {
+        "c1": "Certificado de emisiones vigente",
+        "c2": "Licencia A4 del conductor",
+        "c3": "Seguro obligatorio y póliza de carga"
+      }
+    }
+  },
+  "tolvas": {
+    "patente1": {
+      "nombre": "Camión Tolva",
+      "descripciones": {
+        "basico": "Camión tolva para transporte eficiente de materiales granulados y semilíquidos",
+        "basico2": "Capacidad 18m³, sistema de descarga por gravedad y compuerta trasera",
+        "tecnicas": "Tolva de aleación anticorrosiva, compuertas herméticas, sistema neumático"
+      },
+      "areastrabajo": {
+        "area1": "Transporte Especializado",
+        "area2": "Construcción Vial",
+        "area3": "Obras Urbanas",
+        "area4": "Minería No Metálica"
+      },
+      "serviciosentregados": {
+        "s1": {
+          "nombre": "Arriendo Integral",
+          "descripcion": "Servicio completo con operador especializado"
+        },
+        "s2": {
+          "nombre": "Transporte de Áridos Finos",
+          "descripcion": "Arena fina, gravilla, material seleccionado"
+        },
+        "s3": {
+          "nombre": "Distribución de Asfalto en Frío",
+          "descripcion": "Aplicación para bacheo y mantención vial"
+        },
+        "s4": {
+          "nombre": "Retiro de Escombros Finos",
+          "descripcion": "Limpieza de residuos de demolición"
+        },
+        "s5": {
+          "nombre": "Limpieza Industrial",
+          "descripcion": "Retiro de material particulado y residuos"
+        },
+        "s6": {
+          "nombre": "Relleno y Nivelación",
+          "descripcion": "Distribución precisa de material granular"
+        },
+        "s7": {
+          "nombre": "Movimiento de Tierra Controlado",
+          "descripcion": "Transporte para obras de precisión"
+        },
+        "s8": {
+          "nombre": "Transporte de Sal Industrial",
+          "descripcion": "Suministro para deshielo y procesos químicos"
+        }
+      },
+      "certificaciones": {
+        "c1": "Certificación para transporte de materiales especiales",
+        "c2": "Sistema de pesaje calibrado",
+        "c3": "Protocolos de limpieza entre cargas"
+      }
+    }
+  },
+  "porters": {
+    "patente1": {
+      "nombre": "Camión Porter 3/4",
+      "descripciones": {
+        "basico": "Camión liviano doble cabina para transporte seguro de personal, herramientas y cargas livianas",
+        "basico2": "Capacidad de carga 2 toneladas, doble cabina para 5 pasajeros",
+        "tecnicas": "Caja reforzada, baranda removible, sistema de amarre, capota opcional"
+      },
+      "areastrabajo": {
+        "area1": "Transporte de Personal",
+        "area2": "Servicios Técnicos",
+        "area3": "Distribución Urbana",
+        "area4": "Apoyo Logístico"
+      },
+      "serviciosentregados": {
+        "s1": {
+          "nombre": "Arriendo Diario/Semanal",
+          "descripcion": "Servicio flexible con o sin conductor"
+        },
+        "s2": {
+          "nombre": "Transporte de Personal a Faenas",
+          "descripcion": "Traslado seguro de trabajadores"
+        },
+        "s3": {
+          "nombre": "Distribución de Herramientas y Repuestos",
+          "descripcion": "Logística para mantención industrial"
+        },
+        "s4": {
+          "nombre": "Servicios de Mantención Móvil",
+          "descripcion": "Apoyo técnico en terreno"
+        },
+        "s5": {
+          "nombre": "Transporte de Materiales Livianos",
+          "descripcion": "Carga general, materiales de oficina"
+        },
+        "s6": {
+          "nombre": "Supervisión de Obras",
+          "descripcion": "Vehículo para inspecciones técnicas"
+        }
+      },
+      "certificaciones": {
+        "c1": "Revisión técnica vigente",
+        "c2": "Seguro obligatorio y contra terceros",
+        "c3": "Licencia A2 del conductor"
+      }
+    }
+  },
+  "retroexcavadoras": {
+    "patente1": {
+      "nombre": "Retroexcavadora Hidráulica",
+      "descripciones": {
+        "basico": "Maquinaria pesada versátil para excavación, carga, demolición y movimiento de tierras",
+        "basico2": "Capacidad de balde 1.2m³, peso operacional 20 toneladas, alcance máximo 9.5m",
+        "tecnicas": "Motor diésel 150HP, sistema hidráulico de alta presión, cabina con aire acondicionado, tren de rodaje de cadenas de goma"
+      },
+      "areastrabajo": {
+        "area1": "Construcción y Obras Civiles",
+        "area2": "Minería Superficial",
+        "area3": "Obras Viales y Urbanas",
+        "area4": "Agricultura y Riego",
+        "area5": "Demolición Industrial",
+        "area6": "Servicios Municipales"
+      },
+      "serviciosentregados": {
+        "s1": {
+          "nombre": "Arriendo con Operador Certificado",
+          "descripcion": "Servicio completo con maquinista especializado y combustible incluido"
+        },
+        "s2": {
+          "nombre": "Excavación de Fundaciones",
+          "descripcion": "Excavación precisa para cimientos, zapatas y obras de infraestructura"
+        },
+        "s3": {
+          "nombre": "Construcción de Canales de Riego",
+          "descripcion": "Excavación y perfilado de canales para agricultura en valles de Arica"
+        },
+        "s4": {
+          "nombre": "Movimiento de Tierras Masivo",
+          "descripcion": "Nivelación, cortes y rellenos para urbanizaciones y obras viales"
+        },
+        "s5": {
+          "nombre": "Demolición Controlada",
+          "descripcion": "Demolición de estructuras de concreto, muros y edificaciones"
+        },
+        "s6": {
+          "nombre": "Limpieza y Preparación de Terrenos",
+          "descripcion": "Despeje, nivelación y preparación para construcción"
+        },
+        "s7": {
+          "nombre": "Carga de Camiones",
+          "descripcion": "Carga eficiente de áridos, escombros y material excavado"
+        },
+        "s8": {
+          "nombre": "Retiro y Manejo de Escombros",
+          "descripcion": "Limpieza de obras, carga y clasificación de residuos de construcción"
+        },
+        "s9": {
+          "nombre": "Excavación de Zanjas para Servicios",
+          "descripcion": "Zanjas para instalación de agua potable, alcantarillado y cableado"
+        },
+        "s10": {
+          "nombre": "Instalación de Estanques Subterráneos",
+          "descripcion": "Excavación y posicionamiento de tanques de agua y combustible"
+        },
+        "s11": {
+          "nombre": "Trabajos de Paisajismo Industrial",
+          "descripcion": "Movimiento de tierra para jardines, plazas y áreas verdes"
+        },
+        "s12": {
+          "nombre": "Apertura de Caminos Mineros",
+          "descripcion": "Construcción de accesos para faenas y campamentos mineros"
+        },
+        "s13": {
+          "nombre": "Mantenimiento de Cauces",
+          "descripcion": "Limpieza de quebradas y canales de evacuación de aguas lluvia"
+        },
+        "s14": {
+          "nombre": "Carga y Descarga de Contenedores",
+          "descripcion": "Manipulación de containers en puerto y zona franca de Arica"
+        },
+        "s15": {
+          "nombre": "Trabajos de Emergencia",
+          "descripcion": "Respuesta rápida para derrumbes, inundaciones y desastres naturales"
+        }
+      },
+      "accesorios_disponibles": {
+        "a1": {
+          "nombre": "Martillo Hidráulico",
+          "descripcion": "Para demolición de pavimentos y estructuras de concreto"
+        },
+        "a2": {
+          "nombre": "Balde Cuchara Estrecho",
+          "descripcion": "Excavación de zanjas de 30cm a 120cm de ancho"
+        },
+        "a3": {
+          "nombre": "Balde Trapezoidal",
+          "descripcion": "Para excavación de canales y cunetas con taludes"
+        },
+        "a4": {
+          "nombre": "Pulpo Compactador",
+          "descripcion": "Compactación de suelos en espacios reducidos"
+        },
+        "a5": {
+          "nombre": "Rastrillo Clasificador",
+          "descripcion": "Separación y clasificación de materiales"
+        }
+      },
+      "especificaciones_tecnicas": {
+        "motor": "Diésel turbo 150HP, Tier 3 cumple normativas ambientales",
+        "sistema_hidraulico": "Caudal 310 L/min, presión máxima 350 bar",
+        "capacidades": {
+          "balde_estandar": "1.2m³",
+          "balde_maximo": "1.8m³ con accesorios",
+          "alcance_horizontal": "9.5m",
+          "profundidad_excavacion": "6.2m",
+          "altura_descarga": "6.8m"
+        },
+        "movilidad": "Velocidad de desplazamiento 5.5 km/h, pendiente máxima 35°"
+      },
+      "certificaciones": {
+        "c1": "Operador certificado SENCE en manejo de maquinaria pesada",
+        "c2": "Revisión técnica vigente para maquinaria pesada",
+        "c3": "Certificado de emisiones y cumplimiento ambiental",
+        "c4": "Seguro de responsabilidad civil y todo riesgo operacional",
+        "c5": "Protocolos de seguridad minera e industrial"
+      },
+      "condiciones_especiales_norte": {
+        "adaptacion_clima": "Sistema de refrigeración reforzado para altas temperaturas del desierto",
+        "filtros_especiales": "Filtros de aire de alta eficiencia para ambiente polvoriento",
+        "mantenimiento": "Programa de mantención intensiva por condiciones extremas",
+        "horarios_trabajo": "Disponible para trabajos nocturnos en verano"
+      },
+      "sectores_especializados": {
+        "mineria": "Experiencia en faenas cupríferas, preparación de botaderos, accesos mineros",
+        "agricultura": "Especialización en canales de riego, valles de Azapa y Lluta",
+        "portuario": "Trabajos en zona portuaria y zona franca de Arica",
+        "fronterizo": "Conocimiento de normativas para trabajos cerca de fronteras internacionales"
+      }
+    }
+  },
+  "Empresa": {
+    "titulo": "Nuestra Empresa",
+    "text1": "GeoTrans fundado en 2001 en el norte del Pais por Alfredo Cesar",
+    "text2": "10 Años de experiencia",
+    "text2a": "Nuestra Experiencia en Trabajos de Diversos Clientes nos permiten crear mejores politicas de trabajo , enfocandonos a la seguridad, productividad y transparencia",
+    "text3": "Nuestra Region",
+    "text4": "Construcciones",
+    "text5": "Independientes",
+    "text6": "Mineria",
+    "text7": "Obras viales",
+    "text8": "Obras Hidraulicas",
+    "btnServices": "Revise Nuestros Servicios",
+    "btnContact": "Contactenos"
+  },
+  "Servicios": {
+    "contact1": "Adjuntar lo seleccionado a su Cotizacion",
+    "contact2": "Ir a una cotizacion sin adjuntar servicios ni productos",
+    "msggo": "Cotizar Estos Servicios",
+    "msgusr": "Seleccione algunos Servicios o Productos para Cotizar-----------------",
+    "msgnalert": "Seleccione algun Producto o Servicio",
+    "cotizarlo": "Lista Cotizacion",
+    "ListadoTitle": "Listado de nueva cotización",
+    "primerFiltro": "Mostrando por Maquinarias",
+    "segundoFiltro": "Mostrando por Areas",
+    "parllxt1": "Ponemos a su disposición el arriendo de nuestros equipos y nuestros servicios acorde a cada una de sus necesidades.",
+    "titulo": "Nuestros Servicios",
+    "subtitulo": "Maquinarias y Transportes",
+    "text3": "Ponemos a su disposicion el arriendo de nuestros equipos y servicios acorde a sus necesidades",
+    "btnall": "Todos",
+    "btnTransport": "Transportes",
+    "btnObras": "Obras",
+    "btnArid": "Aridos",
+    "subtTransport": "Servicio Transporte",
+    "subObras": "Servicio Obras",
+    "subArid": "Venta Materiales Aridos",
+    "sA1": "Transporte Materiales aridos",
+    "sA2": "Transporte carga pesada",
+    "sA3": "Transporte carga pesada ",
+    "sA4": "Traslado de contenedores ",
+    "sB1": "Estanque de agua",
+    "sB2": "Limpieza de estanque ",
+    "sB3": "Construcciones de zanjas",
+    "sB4": "Remolque materiales",
+    "sB5": "Izajes",
+    "sC1": "Base granular",
+    "sC2": "Arena",
+    "sC3": "Gravilla",
+    "parllxt2": "Consulte por alguno de Nuestros Servicios",
+    "parllxt2b": "Trabajamos con  Empresas e Independientes"
+  },
+  "Contacto": {
+    "titulo": "Contactenos",
+    "subtitle": "GEOTRANS espera su mensaje  , complete este formulario para contactarnos",
+    "plus1": "Clientes",
+    "plus2": "Participacion de Proyectos",
+    "plus3": "Equipos de Trabajo",
+    "fmr1": "Nombre Persona o Empresa",
+    "fmr2": "Telefono",
+    "fmr3": "Correo",
+    "fmr4": "¿Quiere ser Explicar con mas detalles?",
+    "fmr5": "Listo",
+    "ModalA": "No ah selecionado ninguna Servicio/Producto",
+    "ModalB": "¿Desea buscar algo para agregarlo a su cotizacion?",
+    "ModalC": "No gracias",
+    "ModalD": "Si Quiero",
+    "formName": "Ingrese el nombre",
+    "formPhone": "Ingrese numero celular de contacto",
+    "formEmail": "Ingrese correo electronico",
+    "sendProject": "Envíe su proyecto",
+    "responseTime": "Cuéntanos tu proyecto y te responderemos en menos de 24 horas",
+    "form": {
+      "fullName": "Nombre completo *",
+      "phone": "Telefono *",
+      "company": "Empresa *",
+      "email": "Correo Electronico *",
+      "moreAbout": "Cuéntanos tu proyecto... *",
+      "success": "¡Mensaje enviado correctamente! Te contactaremos pronto.",
+      "error": "Error al enviar el mensaje. Intenta nuevamente.",
+      "sending": "Enviando Mensaje...",
+      "send": "Enviar Mensaje"
+    },
+    "trustedCompany": "Empresas que confían en nosotros",
+    "workTogether": "Trabajemos Juntos",
+    "transform": "Transformamos ideas en soluciones reales"
+  },
+  "Blog": {
+    "titulo": "Blog y Noticias",
+    "subtitle": "Pensado en la Region y Nuestro sector"
+  },
+  "serviciosGeotrans": {
+    "1": {
+      "nombre": "Arriendo",
+      "cobro": "dia",
+      "precio": "9000"
+    },
+    "2": {
+      "nombre": "Transporte de Agua",
+      "cobro": "dia",
+      "precio": "9000"
+    },
+    "3": {
+      "nombre": "Distribuidora de Agua Industrial",
+      "cobro": "dia",
+      "precio": "9000"
+    },
+    "4": {
+      "nombre": "Riego Areas Verdes",
+      "cobro": "dia",
+      "precio": "9000"
+    },
+    "5": {
+      "nombre": "Transporte de Minerales",
+      "cobro": "dia",
+      "precio": "9000"
+    },
+    "6": {
+      "nombre": "Movimiento de Materiales Aridos",
+      "cobro": "dia",
+      "precio": "9000"
+    },
+    "7": {
+      "nombre": "Izajes",
+      "cobro": "dia",
+      "precio": "9000"
+    },
+    "8": {
+      "nombre": "Montaje Industrial",
+      "cobro": "dia",
+      "precio": "9000"
+    },
+    "9": {
+      "nombre": "Traslado de Cargas",
+      "cobro": "dia",
+      "precio": "9000"
+    },
+    "10": {
+      "nombre": "Traslado de Equipos",
+      "cobro": "dia",
+      "precio": "9000"
+    },
+    "11": {
+      "nombre": "Asfalto",
+      "cobro": "dia",
+      "precio": "9000"
+    },
+    "12": {
+      "nombre": "Retiro de Escombros",
+      "cobro": "dia",
+      "precio": "9000"
+    },
+    "13": {
+      "nombre": "Limpieza de Sitio",
+      "cobro": "dia",
+      "precio": "9000"
+    },
+    "14": {
+      "nombre": "Relleno de Terreno",
+      "cobro": "dia",
+      "precio": "9000"
+    },
+    "15": {
+      "nombre": "Movimiento de Tierra",
+      "cobro": "dia",
+      "precio": "9000"
+    },
+    "16": {
+      "nombre": "Movimiento Estanque de Agua",
+      "cobro": "dia",
+      "precio": "9000"
+    },
+    "17": {
+      "nombre": "Demoliciones",
+      "cobro": "dia",
+      "precio": "9000"
+    }
+  }
+}

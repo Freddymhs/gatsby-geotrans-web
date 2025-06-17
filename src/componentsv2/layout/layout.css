@@ -1,0 +1,111 @@
+/*===============================
+  Main Layout Structure
+================================*/
+main {
+  /* background-color: #f8f8ff; */
+}
+
+/*===============================
+  Card Components
+================================*/
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#team .card {
+  border: none;
+  background: #ffffff;
+}
+
+/*===============================
+  Button Components
+================================*/
+.btn-outline-secondary {
+  border-color: transparent;
+  background-color: #e6e6e6;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+  color: var(--primary-hover);
+  border-color: #6c757d;
+  background-color: var(--background-dark);
+}
+
+.btnUno {
+  box-shadow: inset 0px 39px 0px -24px #e67a73;
+  background: linear-gradient(to bottom, #e4685d 5%, #eb675e 100%);
+  background-color: #e4685d;
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.8rem 3.5rem;
+  text-decoration: none;
+  text-shadow: 0px 1px 1px #b23e35;
+  transition: all 0.3s ease;
+}
+
+.btnUno:hover {
+  background: linear-gradient(
+    to bottom,
+    var(--primary-color) 5%,
+    var(--primary-hover) 100%
+  );
+  background-color: #eb675e;
+  transform: translateY(-2px);
+}
+
+.btnUno:active {
+  transform: translateY(1px);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--secondary-hover);
+  border-color: var(--secondary-hover);
+  box-shadow: none;
+  outline: none;
+}
+
+.btnincard {
+  text-decoration: none;
+}
+
+/*===============================
+  Table Components
+================================*/
+.borderless td,
+.borderless th {
+  border: none;
+}
+
+.borderless table {
+  border: none;
+}
+
+/*===============================
+  Responsive Adjustments (Component-specific)
+================================*/
+@media (max-width: 768px) {
+  .rw-wrapper {
+    width: 95%;
+    margin: 5rem auto 0 auto;
+  }
+
+  .btnUno {
+    padding: 1.2rem 2rem;
+    font-size: 1.3rem;
+  }
+}

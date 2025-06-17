@@ -1,0 +1,24 @@
+{
+  "typescript.suggest.autoImports": "on",
+  "javascript.suggest.autoImports": "on",
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "javascript.preferences.includePackageJsonAutoImports": "on",
+  "typescript.suggest.includeAutomaticOptionalChainCompletions": true,
+  "javascript.suggest.includeAutomaticOptionalChainCompletions": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "false"
+  },
+  "editor.quickSuggestionsDelay": 0,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  }
+}

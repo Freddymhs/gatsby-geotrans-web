@@ -5,3 +5,4 @@ node_modules
 public
 .env
 zoom_amd64.deb
+package-lock.json
