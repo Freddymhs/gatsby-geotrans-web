@@ -128,7 +128,7 @@ const NavigationLinks = () => {
         <Nav.Item>
           <Nav.Link
             as={Link}
-            to="/contactoqt"
+            to="/contacto"
             className="px-3 py-2 text-decoration-none"
             style={{
               transition: "color 0.3s ease",

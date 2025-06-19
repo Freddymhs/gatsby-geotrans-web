@@ -11,7 +11,6 @@ import { Card, Col, Row } from "react-bootstrap/esm";
 import ContactForm from "@/componentsv2/contactpage/contactForm";
 import Destacado from "@/componentsv2/shared/Destacado";
 import styled from "styled-components";
-// import SectionVideo from "./SectionVideo"; // Importación del nuevo componente
 
 // Importaciones de imágenes
 import bitmux from "@images/empresas/BITUMIX.svg";
@@ -60,7 +59,7 @@ export const SliderCarousel = () => {
   );
 };
 
-const Contactoqt = ({
+const Contacto = ({
   data: {
     allFile: { nodes },
   },
@@ -125,7 +124,7 @@ const Contactoqt = ({
   );
 };
 
-export default Contactoqt;
+export default Contacto;
 
 export const query = graphql`
   query ContacqtPageQuery($language: String!) {
