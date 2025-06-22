@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "scripts": {
+    "vercel-build": "node -v && npm -v && gatsby build",
     "dev": "npx kill-port 8000 && gatsby develop && xdg-open http://localhost:8000",
     "build": "gatsby build",
     "analyze:unused": "npx depcheck",
