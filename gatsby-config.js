@@ -9,7 +9,6 @@ module.exports = {
     siteUrl: `http://localhost:8000`, // Movido aquí desde el plugin
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
