@@ -16,7 +16,7 @@ const IndexPage = ({
   return (
     <Layout>
       <Seo
-        title="Geotrans Arica"
+        title="Inicio"
         description="Expertos en arriendo de maquinarias y servicios de construcción en Arica. Contáctanos para tus proyectos."
         keywords={[
           "arriendo",

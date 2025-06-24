@@ -11,7 +11,6 @@ import { Card, Col, Row } from "react-bootstrap/esm";
 import ContactForm from "@/componentsv2/contactpage/contactForm";
 import Destacado from "@/componentsv2/shared/Destacado";
 import styled from "styled-components";
-
 // Importaciones de imágenes
 import bitmux from "@images/empresas/BITUMIX.svg";
 import cfv from "@images/empresas/CFV.svg";
@@ -65,12 +64,11 @@ const Contacto = ({
   },
 }) => {
   const { t } = useTranslation();
-  const imgOptimizedTrucks = nodes;
 
   return (
     <Layout>
       <Seo
-        title="Contacto | Geotrans Arica"
+        title="Contacto"
         description="¿Necesitas maquinaria o servicios de movimiento de tierra en Arica? Contáctanos hoy mismo y solicita tu cotización sin compromiso."
         keywords={[
           "contacto",

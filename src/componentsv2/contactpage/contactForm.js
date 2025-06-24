@@ -111,7 +111,7 @@ const ContactForm = () => {
       destinatario: destinatario,
     };
     try {
-      const response = await fetch("process.env.API_AWS_FORM", {
+      const response = await fetch(process.env.GATSBY_API_AWS_FORM, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
