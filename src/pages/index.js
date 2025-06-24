@@ -1,33 +1,34 @@
 import React from "react";
 import { graphql } from "gatsby";
-import { Container, Nav } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Layout from "../componentsv2/layout/layout";
 import Maquinarias from "../componentsv2/homepage/maquinarias";
 import Portada from "../componentsv2/homepage/portada";
-import SEO from "@/componentsv2/shared/seo";
-import { useTranslation } from "react-i18next";
-import { Link } from "gatsby-plugin-react-i18next";
+import { Seo } from "@/componentsv2/shared/Seo";
 
 const IndexPage = ({
   data: {
     allFile: { nodes },
   },
 }) => {
-  const { t } = useTranslation();
   const imgOptimizedTrucks = nodes;
+
   return (
     <Layout>
-      <SEO
+      <Seo
         title="Geotrans Arica"
         description="Expertos en arriendo de maquinarias y servicios de construcción en Arica. Contáctanos para tus proyectos."
-        url="/"
         keywords={[
-          "construcción",
           "arriendo",
+          "excavación",
+          "JCB",
+          "retroexcavadora",
+          "construcción",
           "maquinarias",
           "Geotrans",
           "Arica",
         ]}
+        image="../assetsv2/images/logo/geotransLogo.png"
       />
       <Container fluid className="p-0 m-0 ">
         <Portada />

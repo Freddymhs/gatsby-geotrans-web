@@ -2,7 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import { useTranslation } from "gatsby-plugin-react-i18next";
 import Layout from "@/componentsv2/layout/layout";
-import SEO from "@/componentsv2/shared/seo";
+import { Seo } from "@/componentsv2/shared/Seo";
 import Separador from "@/componentsv2/shared/Separador";
 import Titulo from "@/componentsv2/aboutpage/Titulo";
 import Introduccion from "@/componentsv2/aboutpage/Introduccion";
@@ -13,15 +13,17 @@ const Nosotros = () => {
   const { t } = useTranslation();
   return (
     <Layout>
-      <SEO
+      <Seo
         title="Nosotros | Geotrans Arica"
-        description="Conoce a Geotrans, una empresa ariqueña comprometida con la excelencia en servicios de movimiento de tierra y arriendo de maquinaria."
-        url="/nosotros/"
+        description="Conoce a Geotrans Arica: años de experiencia en arriendo de maquinaria pesada, movimiento de tierra y soluciones para la construcción."
         keywords={[
           "nosotros",
-          "quiénes somos",
-          "empresa ariqueña",
+          "empresa",
+          "Geotrans",
+          "experiencia",
           "maquinarias",
+          "Arica",
+          "movimiento de tierra",
         ]}
       />
       <Separador />

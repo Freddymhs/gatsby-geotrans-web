@@ -3,7 +3,7 @@ import Slider from "react-styled-carousel";
 import { graphql } from "gatsby";
 import { Container } from "react-bootstrap";
 import Layout from "../componentsv2/layout/layout";
-import SEO from "@/componentsv2/shared/seo";
+import { Seo } from "@/componentsv2/shared/Seo";
 import { useTranslation } from "react-i18next";
 import Separador from "@/componentsv2/shared/Separador";
 import TituloM from "@/old-componentss/ComponentesSecciones/PageContactus/Titulo";
@@ -69,16 +69,17 @@ const Contacto = ({
 
   return (
     <Layout>
-      <SEO
+      <Seo
         title="Contacto | Geotrans Arica"
-        description="Contáctanos para cotizaciones, consultas o más información sobre nuestros servicios de maquinaria y movimiento de tierra en Arica."
-        url="/contacto/"
+        description="¿Necesitas maquinaria o servicios de movimiento de tierra en Arica? Contáctanos hoy mismo y solicita tu cotización sin compromiso."
         keywords={[
           "contacto",
-          "cotizaciones",
-          "consultas",
-          "maquinarias Arica",
-          "servicios Geotrans",
+          "Geotrans",
+          "maquinaria",
+          "cotización",
+          "excavadora",
+          "retroexcavadora",
+          "Arica",
         ]}
       />
 
