@@ -62,21 +62,16 @@ const Contacto = ({
 
 export default Contacto;
 
-export const Head = () => (
-  <Seo
-    title="Contacto"
-    description="¿Necesitas maquinaria o servicios de movimiento de tierra en Arica? Contáctanos hoy mismo y solicita tu cotización sin compromiso."
-    keywords={[
-      "contacto",
-      "Geotrans",
-      "maquinaria",
-      "cotización",
-      "excavadora",
-      "retroexcavadora",
-      "Arica",
-    ]}
-  />
-);
+export const Head = () => {
+  const { t } = useTranslation();
+  return (
+    <Seo
+      title={t("seo.contact.title")}
+      description={t("seo.contact.description")}
+      keywords={["contacto", "Geotrans", "maquinaria", "cotización", "excavadora", "retroexcavadora", "Arica"]}
+    />
+  );
+};
 
 export const query = graphql`
   query ContacqtPageQuery($language: String!) {

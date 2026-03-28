@@ -24,7 +24,7 @@ const HeaderInfo = () => {
           <Col xs={12} md={5} className="d-flex align-items-center">
             <img
               src={horario}
-              alt="horario geotrans"
+              alt={t("alt.horarioGeotrans")}
               style={{ height: 14, width: 14, filter: "brightness(0) invert(1)", opacity: 0.7 }}
             />
             <span style={infoTextStyle}>
@@ -41,19 +41,19 @@ const HeaderInfo = () => {
               <ContactItems
                 href={t("datosgeotrans.emailContact")}
                 icon={email}
-                alt="correo geotrans"
+                alt={t("alt.correoGeotrans")}
                 label={t("datosgeotrans.email")}
               />
               <ContactItems
                 href={t("datosgeotrans.telefonoContact")}
                 icon={telefono}
-                alt="teléfono geotrans"
+                alt={t("alt.telefonoGeotrans")}
                 label={t("datosgeotrans.telefono")}
               />
               <ContactItems
                 href={t("datosgeotrans.facebookContact")}
                 icon={masredes}
-                alt="red social geotrans"
+                alt={t("alt.redSocialGeotrans")}
                 label={t("datosgeotrans.social")}
               />
             </div>

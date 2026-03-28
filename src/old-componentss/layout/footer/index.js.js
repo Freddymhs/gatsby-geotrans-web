@@ -186,11 +186,7 @@ const Footer = () => {
 
           <Col className="col-12 col-md-6 py-5">
             <table className="w-100">
-              <thead>
-                <tr>
-                  <th colSpan={2} style={theadStyles}>{t("footer.services")}</th>
-                </tr>
-              </thead>
+              <caption style={{ ...theadStyles, captionSide: "top" }}>{t("footer.services")}</caption>
               <tbody style={tbodyStyles}>
                 {serviceLinks
                   .reduce((rows, service, i) => {

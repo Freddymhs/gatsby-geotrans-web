@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
+import { useTranslation } from "react-i18next";
 import Layout from "@/componentsv2/layout/layout";
 import { Seo } from "@/componentsv2/shared/Seo";
 import Separador from "@/componentsv2/shared/Separador";
@@ -29,21 +30,16 @@ const Nosotros = () => {
 
 export default Nosotros;
 
-export const Head = () => (
-  <Seo
-    title="Nosotros"
-    description="Conoce a Geotrans Arica: años de experiencia en arriendo de maquinaria pesada, movimiento de tierra y soluciones para la construcción."
-    keywords={[
-      "nosotros",
-      "empresa",
-      "Geotrans",
-      "experiencia",
-      "maquinarias",
-      "Arica",
-      "movimiento de tierra",
-    ]}
-  />
-);
+export const Head = () => {
+  const { t } = useTranslation();
+  return (
+    <Seo
+      title={t("seo.about.title")}
+      description={t("seo.about.description")}
+      keywords={["nosotros", "empresa", "Geotrans", "experiencia", "maquinarias", "Arica", "movimiento de tierra"]}
+    />
+  );
+};
 export const query = graphql`
   query NosotrosPageQuery($language: String!) {
     locales: allLocale(filter: { language: { eq: $language } }) {

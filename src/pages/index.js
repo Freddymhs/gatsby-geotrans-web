@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import Layout from "../componentsv2/layout/layout";
 import Maquinarias from "../componentsv2/homepage/maquinarias";
 import Portada from "../componentsv2/homepage/portada";
+import { useTranslation } from "react-i18next";
 import { Seo } from "@/componentsv2/shared/Seo";
 
 const IndexPage = ({
@@ -27,23 +28,17 @@ const IndexPage = ({
 
 export default IndexPage;
 
-export const Head = () => (
-  <Seo
-    title="Inicio"
-    description="Expertos en arriendo de maquinarias y servicios de construcción en Arica. Contáctanos para tus proyectos."
-    keywords={[
-      "arriendo",
-      "excavación",
-      "JCB",
-      "retroexcavadora",
-      "construcción",
-      "maquinarias",
-      "Geotrans",
-      "Arica",
-    ]}
-    image="/favicon-32x32.png"
-  />
-);
+export const Head = () => {
+  const { t } = useTranslation();
+  return (
+    <Seo
+      title={t("seo.home.title")}
+      description={t("seo.home.description")}
+      keywords={["arriendo", "excavación", "JCB", "retroexcavadora", "construcción", "maquinarias", "Geotrans", "Arica"]}
+      image="/favicon-32x32.png"
+    />
+  );
+};
 export const query = graphql`
   query IndexPageQuery($language: String!) {
     allFile(filter: { relativeDirectory: { eq: "MaquinariasYTransportes" } }) {

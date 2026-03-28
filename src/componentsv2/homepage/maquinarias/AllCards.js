@@ -259,31 +259,32 @@ const FlipCard = ({ unobjeto }) => {
                   padding: "12px 10px",
                 }}
               >
-                <h2
+                <p
                   style={{
                     fontSize: "1.5rem",
                     fontWeight: "700",
                     color: "var(--primary-hover)",
                     margin: 0,
                     textTransform: "uppercase",
-                    wordBreak: "break-word", // para evitar corte raro del texto
+                    wordBreak: "break-word",
                   }}
                 >
                   {unobjeto.nombre}
-                </h2>
+                </p>
               </div>
 
               {/* Áreas de aplicación */}
               <div>
-                <h5
+                <p
                   style={{
                     color: "var(--primary-hover)",
                     marginBottom: "10px",
                     fontSize: "1.1rem",
+                    fontWeight: "700",
                   }}
                 >
-                  Áreas:
-                </h5>
+                  {t("Maquinarias.areas")}:
+                </p>
                 <div
                   className="d-flex flex-wrap gap-2"
                   style={{ rowGap: "8px", columnGap: "8px" }}
@@ -314,15 +315,16 @@ const FlipCard = ({ unobjeto }) => {
                   overflow: "hidden",
                 }}
               >
-                <h5
+                <p
                   style={{
                     color: "var(--primary-hover)",
                     marginBottom: "12px",
                     fontSize: "1.1rem",
+                    fontWeight: "700",
                   }}
                 >
                   {t("Maquinarias.someservices")}:
-                </h5>
+                </p>
                 <div
                   style={{
                     display: "grid",

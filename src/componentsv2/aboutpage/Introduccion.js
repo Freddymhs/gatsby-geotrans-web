@@ -24,7 +24,7 @@ const Introduccion = () => {
             <img
               src={logonuestraempresa}
               className="h-100 w-100 mt-lg-5 img-responsive"
-              alt="Logo empresa"
+              alt={t("alt.logoEmpresa")}
             />
           </Col>
 
@@ -57,7 +57,7 @@ const Introduccion = () => {
                 <img
                   src={Aricageotrans}
                   className="img-responsive"
-                  alt="GeoTrans"
+                  alt={t("alt.geotransSvg")}
                 />
               </Col>
             </Row>

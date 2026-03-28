@@ -16,7 +16,7 @@ export const ParallaxFooter = ({ foto }) => {
       style={{ fontFamily: "Montserrat", textAlign: "center" }}
       bgImage={foto}
       strength={2600}
-      bgImageAlt="Cargador Frontal"
+      bgImageAlt={t("alt.cargadorFrontal")}
     >
       <div style={{ height: "400px" }}>
         <OverlayF1 />

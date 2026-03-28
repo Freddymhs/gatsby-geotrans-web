@@ -65,7 +65,7 @@ const BrandLogo = ({ image }) => {
         <div>
           <Img
             fixed={image}
-            alt="Logo Geotrans"
+            alt={t("alt.logoGeotrans")}
             className={"me-2"}
             style={{
               maxHeight: 48,
@@ -149,27 +149,30 @@ const NavigationLinks = () => {
   );
 };
 
-const MobileMenuToggle = () => (
-  <Navbar.Toggle
-    className="d-lg-none border-0 p-2"
-    style={{
-      backgroundColor: "var(--primary-color)",
-      borderRadius: "4px",
-      boxShadow: "none",
-      outline: "none",
-    }}
-    aria-controls="main-nav"
-  >
-    <img
-      src={menuicon}
-      alt="Menu geotrans"
+const MobileMenuToggle = () => {
+  const { t } = useTranslation();
+  return (
+    <Navbar.Toggle
+      className="d-lg-none border-0 p-2"
       style={{
-        height: "24px",
-        width: "24px",
-        filter: "brightness(0) invert(1)",
+        backgroundColor: "var(--primary-color)",
+        borderRadius: "4px",
+        boxShadow: "none",
+        outline: "none",
       }}
-    />
-  </Navbar.Toggle>
-);
+      aria-controls="main-nav"
+    >
+      <img
+        src={menuicon}
+        alt={t("alt.menuGeotrans")}
+        style={{
+          height: "24px",
+          width: "24px",
+          filter: "brightness(0) invert(1)",
+        }}
+      />
+    </Navbar.Toggle>
+  );
+};
 
 export default MainNavigation;

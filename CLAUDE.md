@@ -70,6 +70,8 @@ src/
    - Use `useTranslation()` hook in components: `const { t } = useTranslation()`
    - Access keys: `t("namespace.key")` (e.g., `t("portada.paragraph1")`)
    - Translation JSON files are in `src/locales/` (schema defined by plugin)
+   - **i18n namespaces**: `alt.*` (alt text), `seo.*` (page meta per page), `notFound.*` (404 page)
+   - **SSR limitation**: `t("key", { returnObjects: true })` does NOT work in Gatsby Head API. Keep arrays (like SEO keywords) inline in the component.
 
 4. **Styling**:
    - Bootstrap 5 (via `react-bootstrap` components)
@@ -209,6 +211,9 @@ export default MyComponent;
 - Ensure `gatsby build` completes successfully before pushing to main
 
 ## Troubleshooting
+
+### Phantom Dependencies
+- Before assuming a `package.json` dependency is needed, grep for its usage in `src/`. Unused deps can introduce broken transitive dependencies (e.g., formik pulled deepmerge@2 with a missing sub-dep that broke SSR).
 
 ### Build Fails
 1. Clear cache: `gatsby clean && npm run removecache`

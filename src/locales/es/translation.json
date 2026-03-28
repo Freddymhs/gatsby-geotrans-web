@@ -52,7 +52,8 @@
     "lemaB": "Arriendo de Maquinarias , Equipos de apoyo , Transporte  , servicios  , Suministro de Materiales Aridos.",
     "tituloA": "Maquinarias y Transportes",
     "someservices": "Algunos Servicios",
-    "more": "Revise Todos los Servicios"
+    "more": "Revise Todos los Servicios",
+    "areas": "Áreas"
   },
   "aljibes": {
     "patente1": {
@@ -600,6 +601,44 @@
       "nombre": "Demoliciones",
       "cobro": "dia",
       "precio": "9000"
+    }
+  },
+  "notFound": {
+    "message": "Esta página se desvió del camino...",
+    "backHome": "Volver al inicio"
+  },
+  "alt": {
+    "logoGeotrans": "Logo Geotrans",
+    "logoEmpresa": "Logo empresa",
+    "menuGeotrans": "Menú Geotrans",
+    "horarioGeotrans": "Horario Geotrans",
+    "correoGeotrans": "Correo Geotrans",
+    "telefonoGeotrans": "Teléfono Geotrans",
+    "redSocialGeotrans": "Red social Geotrans",
+    "cargadorFrontal": "Cargador Frontal",
+    "serviciosArriendos": "Arica Servicios y Arriendos",
+    "company": "Empresa",
+    "clientesGeotrans": "Clientes Geotrans Arica",
+    "maquinariasGeotrans": "Maquinarias Geotrans Arica",
+    "proyectosGeotrans": "Proyectos y Obras Geotrans Arica",
+    "geotransSvg": "GeoTrans"
+  },
+  "seo": {
+    "home": {
+      "title": "Inicio",
+      "description": "Expertos en arriendo de maquinarias y servicios de construcción en Arica. Contáctanos para tus proyectos."
+    },
+    "about": {
+      "title": "Nosotros",
+      "description": "Conoce a Geotrans Arica: años de experiencia en arriendo de maquinaria pesada, movimiento de tierra y soluciones para la construcción."
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "¿Necesitas maquinaria o servicios de movimiento de tierra en Arica? Contáctanos hoy mismo y solicita tu cotización sin compromiso."
+    },
+    "notFound": {
+      "title": "404",
+      "description": "Página no encontrada — Geotrans"
     }
   }
 }

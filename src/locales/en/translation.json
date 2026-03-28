@@ -52,7 +52,8 @@
     "lemaB": "Machinery Rental, Support Equipment, Transportation, Services, Supply of Aggregate Materials.",
     "tituloA": "Machinery and Transportation",
     "someservices": "Some Services",
-    "more": "Check All Services"
+    "more": "Check All Services",
+    "areas": "Areas"
   },
   "aljibes": {
     "patente1": {
@@ -600,6 +601,44 @@
       "nombre": "Demolitions",
       "cobro": "day",
       "precio": "9000"
+    }
+  },
+  "notFound": {
+    "message": "This page went off the road...",
+    "backHome": "Back to home"
+  },
+  "alt": {
+    "logoGeotrans": "Geotrans Logo",
+    "logoEmpresa": "Company Logo",
+    "menuGeotrans": "Geotrans Menu",
+    "horarioGeotrans": "Geotrans Schedule",
+    "correoGeotrans": "Geotrans Email",
+    "telefonoGeotrans": "Geotrans Phone",
+    "redSocialGeotrans": "Geotrans Social Media",
+    "cargadorFrontal": "Front Loader",
+    "serviciosArriendos": "Arica Services and Rentals",
+    "company": "Company",
+    "clientesGeotrans": "Geotrans Arica Clients",
+    "maquinariasGeotrans": "Geotrans Arica Machinery",
+    "proyectosGeotrans": "Geotrans Arica Projects and Works",
+    "geotransSvg": "GeoTrans"
+  },
+  "seo": {
+    "home": {
+      "title": "Home",
+      "description": "Experts in machinery rental and construction services in Arica. Contact us for your projects."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Meet Geotrans Arica: years of experience in heavy machinery rental, earthmoving and construction solutions."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Need machinery or earthmoving services in Arica? Contact us today and request your no-obligation quote."
+    },
+    "notFound": {
+      "title": "404",
+      "description": "Page not found — Geotrans"
     }
   }
 }
