@@ -79,7 +79,7 @@ const Footer = () => {
 
   const serviceLinks = Array.from({ length: 17 }, (_, i) => ({
     key: `serviciosGeotrans.${i + 1}.nombre`,
-    to: "/services/",
+    to: "/#MaquinariasGeotrans",
   }));
 
   const machineLinks = [
@@ -93,11 +93,10 @@ const Footer = () => {
 
   const navLinks = [
     { key: "header.Home", to: "/" },
-    { key: "header.About Us", to: "/us/" },
-    { key: "header.Services", to: "/services/" },
+    { key: "header.About Us", to: "/nosotros/" },
+    { key: "header.Services", to: "/#MaquinariasGeotrans" },
     { key: "header.Contact us", to: "/contacto/" },
     { key: "header.Work with us", to: "/contacto/" },
-    { key: "header.News", to: "/news/" },
   ];
 
   const FooterSection = ({

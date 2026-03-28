@@ -45,36 +45,40 @@ export const ParallaxFooter = ({ foto }) => {
             >
               <Col className="col-12 col-md-6">
                 <table className="w-100">
-                  <tr>
-                    <td>
-                      <TItulofooter>{t("header.title")}</TItulofooter>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <SubtitloFooter>{t("header.subtitle")}</SubtitloFooter>
-                    </td>
-                  </tr>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <TItulofooter>{t("header.title")}</TItulofooter>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <SubtitloFooter>{t("header.subtitle")}</SubtitloFooter>
+                      </td>
+                    </tr>
+                  </tbody>
                 </table>
               </Col>
               <Col className="col-12 col-md-6">
                 <table className=" text-center w-100">
-                  <tr>
-                    <td>
-                      <a
-                        href={t("datosgeotrans.pagina")}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Subtitulofooter2>
-                          {t("datosgeotrans.pagina").replace(
-                            /https:\/\/|vercel\./g,
-                            ""
-                          )}
-                        </Subtitulofooter2>
-                      </a>
-                    </td>
-                  </tr>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <a
+                          href={t("datosgeotrans.pagina")}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Subtitulofooter2>
+                            {t("datosgeotrans.pagina").replace(
+                              /https:\/\/|vercel\./g,
+                              ""
+                            )}
+                          </Subtitulofooter2>
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
                 </table>
               </Col>
             </Row>
@@ -107,7 +111,7 @@ export const ParallaxGral = ({ foto, frase, frasealt }) => {
           className="text-white"
         >
           <p>{frase}</p>
-          <p>{typeof frasealt == "undefined" ? <p>&nbsp;</p> : frasealt}</p>
+          <p>{typeof frasealt === "undefined" ? "\u00A0" : frasealt}</p>
         </div>
       </div>
     </Parallax>

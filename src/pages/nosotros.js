@@ -12,19 +12,6 @@ import Destacado from "@/componentsv2/shared/Destacado";
 const Nosotros = () => {
   return (
     <Layout>
-      <Seo
-        title="Nosotros"
-        description="Conoce a Geotrans Arica: años de experiencia en arriendo de maquinaria pesada, movimiento de tierra y soluciones para la construcción."
-        keywords={[
-          "nosotros",
-          "empresa",
-          "Geotrans",
-          "experiencia",
-          "maquinarias",
-          "Arica",
-          "movimiento de tierra",
-        ]}
-      />
       <Separador />
 
       <Titulo />
@@ -45,6 +32,22 @@ const Nosotros = () => {
 };
 
 export default Nosotros;
+
+export const Head = () => (
+  <Seo
+    title="Nosotros"
+    description="Conoce a Geotrans Arica: años de experiencia en arriendo de maquinaria pesada, movimiento de tierra y soluciones para la construcción."
+    keywords={[
+      "nosotros",
+      "empresa",
+      "Geotrans",
+      "experiencia",
+      "maquinarias",
+      "Arica",
+      "movimiento de tierra",
+    ]}
+  />
+);
 export const query = graphql`
   query NosotrosPageQuery($language: String!) {
     locales: allLocale(filter: { language: { eq: $language } }) {

@@ -1,6 +1,8 @@
 import React from "react";
+import { graphql } from "gatsby";
+import { Link } from "gatsby-plugin-react-i18next";
 import Layout from "../componentsv2/layout/layout";
-import { Link } from "gatsby";
+import { Seo } from "@/componentsv2/shared/Seo";
 
 const NotFoundPage = () => (
   <Layout>
@@ -39,3 +41,24 @@ const NotFoundPage = () => (
 );
 
 export default NotFoundPage;
+
+export const Head = () => (
+  <Seo
+    title="404"
+    description="Página no encontrada — Geotrans"
+  />
+);
+
+export const query = graphql`
+  query NotFoundPageQuery($language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
+  }
+`;

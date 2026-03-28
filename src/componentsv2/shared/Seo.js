@@ -3,6 +3,8 @@ import { useStaticQuery, graphql } from "gatsby";
 import { useLocation } from "@reach/router";
 import { useTranslation } from "react-i18next";
 
+const LANGUAGES = ["es", "en"];
+
 export const Seo = ({ title, description, keywords = [], image }) => {
   const { i18n } = useTranslation();
   const lang = i18n.language || "es";
@@ -29,10 +31,15 @@ export const Seo = ({ title, description, keywords = [], image }) => {
   const seo = {
     title: title ? `${title} | ${defaultTitle}` : defaultTitle,
     description: description || defaultDesc,
-    image: image ? `${siteUrl}${image}` : `${siteUrl}/favicon-32x32.png`,
+    image: image
+      ? `${siteUrl}${image.startsWith("/") ? "" : "/"}${image}`
+      : `${siteUrl}/favicon-32x32.png`,
     url: `${siteUrl}${pathname}`,
     keywords: keywords.join(", "),
   };
+
+  const pathWithoutLang = pathname.replace(/^\/(es|en)\//, "/");
+  const canonicalUrl = `${siteUrl}/${lang}${pathWithoutLang}`;
 
   return (
     <>
@@ -40,11 +47,28 @@ export const Seo = ({ title, description, keywords = [], image }) => {
       <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
       {seo.keywords && <meta name="keywords" content={seo.keywords} />}
+      <link rel="canonical" href={canonicalUrl} />
+
+      {LANGUAGES.map((hrefLang) => (
+        <link
+          key={hrefLang}
+          rel="alternate"
+          hrefLang={hrefLang}
+          href={`${siteUrl}/${hrefLang}${pathWithoutLang}`}
+        />
+      ))}
+      <link
+        rel="alternate"
+        hrefLang="x-default"
+        href={`${siteUrl}/es${pathWithoutLang}`}
+      />
+
       <meta property="og:title" content={seo.title} />
       <meta property="og:description" content={seo.description} />
       <meta property="og:image" content={seo.image} />
-      <meta property="og:url" content={seo.url} />
+      <meta property="og:url" content={canonicalUrl} />
       <meta property="og:type" content="website" />
+      <meta property="og:locale" content={lang === "es" ? "es_CL" : "en_US"} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />

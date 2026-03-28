@@ -15,21 +15,6 @@ const IndexPage = ({
 
   return (
     <Layout>
-      <Seo
-        title="Inicio"
-        description="Expertos en arriendo de maquinarias y servicios de construcción en Arica. Contáctanos para tus proyectos."
-        keywords={[
-          "arriendo",
-          "excavación",
-          "JCB",
-          "retroexcavadora",
-          "construcción",
-          "maquinarias",
-          "Geotrans",
-          "Arica",
-        ]}
-        image="../assetsv2/images/logo/geotransLogo.png"
-      />
       <Container fluid className="p-0 m-0 ">
         <Portada />
       </Container>
@@ -41,6 +26,24 @@ const IndexPage = ({
 };
 
 export default IndexPage;
+
+export const Head = () => (
+  <Seo
+    title="Inicio"
+    description="Expertos en arriendo de maquinarias y servicios de construcción en Arica. Contáctanos para tus proyectos."
+    keywords={[
+      "arriendo",
+      "excavación",
+      "JCB",
+      "retroexcavadora",
+      "construcción",
+      "maquinarias",
+      "Geotrans",
+      "Arica",
+    ]}
+    image="/favicon-32x32.png"
+  />
+);
 export const query = graphql`
   query IndexPageQuery($language: String!) {
     allFile(filter: { relativeDirectory: { eq: "MaquinariasYTransportes" } }) {

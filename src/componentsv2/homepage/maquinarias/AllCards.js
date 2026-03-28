@@ -337,11 +337,9 @@ const FlipCard = ({ unobjeto }) => {
                   }}
                 >
                   {unobjeto.servicio.map((servicio, index) => (
-                    <p
+                    <div
                       key={index}
-                      // to="/services/"
                       className="text-decoration-none"
-                      style={{ textDecoration: "none" }}
                     >
                       <div
                         style={{
@@ -373,7 +371,7 @@ const FlipCard = ({ unobjeto }) => {
                       >
                         • {servicio}
                       </div>
-                    </p>
+                    </div>
                   ))}
                 </div>
               </div>
