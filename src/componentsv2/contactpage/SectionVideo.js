@@ -29,7 +29,7 @@ export const KzVideo = styled.video.attrs({
   height: 100%;
   object-fit: cover;
   object-position: center;
-  background-color: #29434e;
+  background-color: var(--text-dark);
   pointer-events: none;
 
   position: absolute;

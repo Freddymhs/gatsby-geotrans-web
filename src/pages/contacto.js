@@ -50,17 +50,12 @@ const Contacto = ({
         </Row>
       </Container>
 
-      <div style={{ width: "100%", height: "17vh" }} className="d-block">
-        &nbsp;
-      </div>
+      <Separador />
 
       <SectionVideo
         title={t("Contacto.workTogether")}
         subtitle={t("Contacto.transform")}
       />
-      <div style={{ width: "100%", height: "21vh" }} className="d-block">
-        &nbsp;
-      </div>
     </Layout>
   );
 };

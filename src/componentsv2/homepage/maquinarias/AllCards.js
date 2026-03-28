@@ -71,7 +71,7 @@ const FlipCard = ({ unobjeto }) => {
           style={{
             position: "relative",
             width: "100%",
-            aspectRatio: "4 / 3", // mantiene proporción
+            aspectRatio: "5 / 4",
             transformStyle: "preserve-3d",
             transition:
               "transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
@@ -242,14 +242,11 @@ const FlipCard = ({ unobjeto }) => {
                 height: "100%",
                 display: "flex",
                 flexDirection: "column",
-                padding: "20px",
-                maxWidth: "100%", // que ocupe todo el ancho posible
-                minWidth: "280px",
-                width: "100%", // que tome todo el ancho del contenedor padre
+                padding: "16px",
+                width: "100%",
                 boxSizing: "border-box",
-                gap: "20px", // espacio uniforme entre secciones
-                overflow: "hidden", // evitar scroll innecesario
-                maxHeight: "600px", // límite alto para controlar overflow general
+                gap: "12px",
+                overflow: "hidden",
               }}
             >
               {/* Header con título */}
@@ -314,9 +311,7 @@ const FlipCard = ({ unobjeto }) => {
               <div
                 style={{
                   flex: 1,
-                  minHeight: "150px",
-                  maxHeight: "220px",
-                  overflowY: "auto",
+                  overflow: "hidden",
                 }}
               >
                 <h5
@@ -333,7 +328,7 @@ const FlipCard = ({ unobjeto }) => {
                     display: "grid",
                     gridTemplateColumns:
                       "repeat(auto-fill, minmax(140px, 1fr))", // mínimo más ancho para texto
-                    gap: "10px",
+                    gap: "8px",
                   }}
                 >
                   {unobjeto.servicio.map((servicio, index) => (
@@ -346,9 +341,9 @@ const FlipCard = ({ unobjeto }) => {
                           background: "rgba(255, 255, 255, 0.15)",
                           backdropFilter: "blur(5px)",
                           color: "#fff",
-                          padding: "10px 14px",
+                          padding: "8px 12px",
                           borderRadius: "6px",
-                          fontSize: "0.9rem",
+                          fontSize: "0.85rem",
                           fontWeight: "500",
                           textAlign: "left",
                           cursor: "pointer",

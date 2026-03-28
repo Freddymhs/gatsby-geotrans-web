@@ -6,124 +6,28 @@ import Nclientes from "@images/iconos/Nclientes.svg";
 import Nproyectos from "@images/iconos/Nproyectos.svg";
 import Nmaquinarias from "@images/iconos/Nmaquinarias.svg";
 import { Medallones } from "./Texts";
+
+const STATS = [
+  { value: "+ 19", labelKey: "Contacto.plus1", icon: Nclientes, alt: "Clientes Geotrans Arica" },
+  { value: "+ 8", labelKey: "Contacto.plus3", icon: Nmaquinarias, alt: "Maquinarias Geotrans Arica" },
+  { value: "+ 45", labelKey: "Contacto.plus2", icon: Nproyectos, alt: "Proyectos y Obras Geotrans Arica" },
+];
+
 const Destacado = () => {
   const { t } = useTranslation();
+
   return (
-    <>
-      <Container className="">
-        <Row className="">
-          <Col
-            className="col-12 
-            col-md-4
-            
-          "
-          >
-            <Row className="">
-              <Col className=" text-center                col-12">
-                <Row>
-                  <Col className="col-12   "></Col>
-                  <Col className="col-12    ">
-                    <Medallones>+ 19</Medallones>
-                    <Medallones>{t("Contacto.plus1")}</Medallones>
-                  </Col>
-                </Row>
-              </Col>
-
-              <Col className="  text-center    col-12  ">
-                <img
-                  class="img-fluid"
-                  alt="Clientes Geotrans Arica"
-                  src={Nclientes}
-                />
-              </Col>
-            </Row>
+    <Container>
+      <Row>
+        {STATS.map((stat) => (
+          <Col key={stat.labelKey} xs={12} md={4} className="text-center mb-4">
+            <Medallones>{stat.value}</Medallones>
+            <Medallones>{t(stat.labelKey)}</Medallones>
+            <img className="img-fluid mt-2" alt={stat.alt} src={stat.icon} />
           </Col>
-
-          <Col
-            className="
-            
-            col-12 
-            col-md-4
-          "
-          >
-            <Row className="">
-              <Col
-                className=" text-center
-              col-12
-             
-             
-              "
-              >
-                <Row>
-                  <Col
-                    className="col-12   "
-                    // style={{
-                    //   color: "#FFA06D",
-                    //   fontSize: "4.4rem",
-                    //   fontFamily: "Montserrat",
-                    //   fontWeight: "700",
-                    //   lineHeight: "4rem",
-                    // }}
-                  ></Col>
-                  <Col className="col-12  ">
-                    <Medallones> + 8</Medallones>
-                    <Medallones> {t("Contacto.plus3")}</Medallones>
-                  </Col>
-                </Row>
-              </Col>
-              <Col
-                className="  text-center
-              col-12             
-            
-              "
-              >
-                <img
-                  class="img-fluid"
-                  alt="Maquinarias Geotrans Arica"
-                  src={Nmaquinarias}
-                />
-              </Col>
-            </Row>
-          </Col>
-
-          <Col
-            className=" 
-            
-            col-12 
-            col-md-4         "
-          >
-            <Row className="">
-              <Col
-                className=" text-center
-              col-12
-              
-               
-              "
-              >
-                <Row>
-                  <Col className="col-12  ">
-                    <Medallones>+ 45</Medallones>
-                    <Medallones>{t("Contacto.plus2")}</Medallones>
-                  </Col>
-                </Row>
-              </Col>
-              <Col
-                className="  text-center
-              col-12             
-             
-              "
-              >
-                <img
-                  class="img-fluid"
-                  alt="Proyectos y Obras Geotrans Arica"
-                  src={Nproyectos}
-                />
-              </Col>
-            </Row>
-          </Col>
-        </Row>
-      </Container>
-    </>
+        ))}
+      </Row>
+    </Container>
   );
 };
 

@@ -15,17 +15,11 @@ const Nosotros = () => {
 
       <Titulo />
       <Introduccion />
-      <div style={{ width: "100%", height: "17vh" }} className="d-block">
-        &nbsp;
-      </div>
+      <Separador />
       <NuestrasAreas />
-      <div style={{ width: "100%", height: "21vh" }} className="d-block">
-        &nbsp;
-      </div>
+      <Separador />
       <Destacado />
-      <div style={{ width: "100%", height: "17vh" }} className="d-block">
-        &nbsp;
-      </div>
+      <Separador />
     </Layout>
   );
 };
