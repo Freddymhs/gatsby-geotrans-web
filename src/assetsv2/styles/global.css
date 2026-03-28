@@ -13,14 +13,14 @@ html {
   src: url("@fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
   /* font-weight: 100; */
   font-style: normal;
-  font-display: swap;
+  font-display: fallback;
 }
 @font-face {
   font-family: "Montserrat";
   src: url("@fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
   /* font-weight: 100; */
   font-style: normal;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
@@ -28,7 +28,7 @@ html {
   src: url("@fonts/Blader/Blader.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: fallback;
 }
 
 /*===============================
