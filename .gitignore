@@ -1,9 +1,33 @@
-node_modules
-/public/*
-.cache
-/public
-public
+# Dependencies
+node_modules/
+
+# Gatsby
+.cache/
+public/
+
+# Environment
 .env
+.env.local
+.env.development
+.env.production
+.env.*.local
+!.env.example
+
+# Herramientas AI/desarrollo
+.claude/settings.local.json
+.serena/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+screenshots/
 zoom_amd64.deb
 package-lock.json
-.env.development
