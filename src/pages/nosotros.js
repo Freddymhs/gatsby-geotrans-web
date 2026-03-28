@@ -10,11 +10,10 @@ import NuestrasAreas from "@/componentsv2/aboutpage/Areastrabajo";
 import Destacado from "@/componentsv2/shared/Destacado";
 
 const Nosotros = () => {
-  const { t } = useTranslation();
   return (
     <Layout>
       <Seo
-        title="Nosotros | Geotrans Arica"
+        title="Nosotros"
         description="Conoce a Geotrans Arica: años de experiencia en arriendo de maquinaria pesada, movimiento de tierra y soluciones para la construcción."
         keywords={[
           "nosotros",
