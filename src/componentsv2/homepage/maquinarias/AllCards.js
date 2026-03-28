@@ -90,7 +90,7 @@ const FlipCard = ({ unobjeto }) => {
               width: "100%",
               height: "100%",
               backfaceVisibility: "hidden",
-              backgroundColor: "#FF6E40",
+              backgroundColor: "var(--primary-color)",
               borderRadius: "12px",
               overflow: "hidden",
               display: "flex",
@@ -118,7 +118,7 @@ const FlipCard = ({ unobjeto }) => {
                 style={{
                   fontSize: "clamp(1.2rem, 4vw, 2.2rem)",
                   fontWeight: "700",
-                  color: "#001B27",
+                  color: "var(--background-dark)",
                   margin: 0,
                   textTransform: "uppercase",
                   letterSpacing: "1px",
@@ -172,7 +172,7 @@ const FlipCard = ({ unobjeto }) => {
                 alignItems: "center",
                 justifyContent: "center",
                 fontSize: "18px",
-                color: "#001B27",
+                color: "var(--background-dark)",
                 transform: isHovering
                   ? "rotate(180deg) scale(1.1)"
                   : "rotate(0deg)",
@@ -266,7 +266,7 @@ const FlipCard = ({ unobjeto }) => {
                   style={{
                     fontSize: "1.5rem",
                     fontWeight: "700",
-                    color: "#FFA06D",
+                    color: "var(--primary-hover)",
                     margin: 0,
                     textTransform: "uppercase",
                     wordBreak: "break-word", // para evitar corte raro del texto
@@ -280,7 +280,7 @@ const FlipCard = ({ unobjeto }) => {
               <div>
                 <h5
                   style={{
-                    color: "#FFA06D",
+                    color: "var(--primary-hover)",
                     marginBottom: "10px",
                     fontSize: "1.1rem",
                   }}
@@ -296,7 +296,7 @@ const FlipCard = ({ unobjeto }) => {
                       key={index}
                       style={{
                         background: "rgba(255, 160, 109, 0.9)",
-                        color: "#001B27",
+                        color: "var(--background-dark)",
                         padding: "5px 10px",
                         borderRadius: "12px",
                         fontSize: "0.8rem",
@@ -321,7 +321,7 @@ const FlipCard = ({ unobjeto }) => {
               >
                 <h5
                   style={{
-                    color: "#FFA06D",
+                    color: "var(--primary-hover)",
                     marginBottom: "12px",
                     fontSize: "1.1rem",
                   }}
@@ -410,7 +410,7 @@ const FlipCard = ({ unobjeto }) => {
                       padding: "12px 30px",
                       fontSize: "1rem",
                       fontWeight: "600",
-                      color: "#001B27",
+                      color: "var(--background-dark)",
                       boxShadow: "0 4px 15px rgba(255, 160, 109, 0.4)",
                       cursor: "pointer",
                       whiteSpace: "nowrap",

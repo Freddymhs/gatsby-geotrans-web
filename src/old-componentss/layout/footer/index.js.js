@@ -14,12 +14,12 @@ const Footer = () => {
   const { t } = useTranslation();
 
   const footerStyles = {
-    backgroundColor: "#f8f8ff",
+    backgroundColor: "var(--ghost-white)",
   };
 
   const borderPersonalStyles = {
-    borderRadius: "5px",
-    backgroundColor: "#e6e6e6",
+    borderRadius: "8px",
+    backgroundColor: "var(--light-gray)",
   };
 
   const theadStyles = {
@@ -28,23 +28,25 @@ const Footer = () => {
     letterSpacing: "0.21em",
     color: "var(--primary-text)",
     fontFamily: "Montserrat",
+    paddingBottom: "1rem",
   };
 
   const tbodyStyles = {
     textAlign: "justify",
-    fontSize: "24px",
-    lineHeight: "28px",
-    color: "#29434e",
+    fontSize: "1.6rem",
+    lineHeight: "2.8rem",
+    color: "var(--text-dark)",
     fontFamily: "Montserrat",
   };
 
   const linkStyles = {
     textDecoration: "none",
     textAlign: "justify",
-    fontSize: "24px",
-    lineHeight: "28px",
-    color: "#29434e",
+    fontSize: "1.6rem",
+    lineHeight: "2.8rem",
+    color: "var(--text-dark)",
     fontFamily: "Montserrat",
+    transition: "color 0.2s ease",
   };
 
   const contactLinks = [

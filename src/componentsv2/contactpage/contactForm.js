@@ -12,7 +12,7 @@ export const StyledFormControl = styled(Form.Control)`
   transition: all 0.3s ease;
 
   &:focus {
-    border-color: #ff6e40;
+    border-color: var(--primary-color);
     box-shadow: 0 0 0 0.2rem rgba(255, 110, 64, 0.15);
     background-color: #fff;
   }
@@ -23,7 +23,7 @@ export const StyledFormControl = styled(Form.Control)`
 `;
 
 export const FormTitle = styled.h2`
-  color: #001b27;
+  color: var(--background-dark);
   font-weight: 700;
   margin-bottom: 1.5rem;
   text-align: center;
@@ -42,7 +42,7 @@ export const CompaniesSection = styled.div`
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 
   h3 {
-    color: #001b27;
+    color: var(--background-dark);
     text-align: center;
     margin-bottom: 1.5rem;
     font-weight: 600;

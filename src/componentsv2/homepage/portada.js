@@ -36,7 +36,7 @@ const VideoPortada = () => (
       zIndex: 1,
       objectFit: "cover",
       objectPosition: "center",
-      backgroundColor: "#29434e",
+      backgroundColor: "var(--text-dark)",
     }}
   />
 );

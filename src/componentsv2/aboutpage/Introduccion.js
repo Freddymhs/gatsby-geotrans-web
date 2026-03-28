@@ -18,13 +18,7 @@ const Introduccion = () => {
 
   return (
     <Styles>
-      {[...Array(4)].map((_, i) => (
-        <div key={`space-top-${i}`} className="w-100 d-block d-lg-none">
-          &nbsp;
-        </div>
-      ))}
-
-      <Container fluid>
+      <Container fluid className="intro-container">
         <Row>
           <Col className="order-1 col-9 col-sm-4 col-md-3 offset-lg-1 col-lg-3 pt-lg-5 pl-lg-5 mt-lg-5">
             <img
@@ -36,88 +30,23 @@ const Introduccion = () => {
 
           <Col className="order-2 col-12 col-sm-8 col-md-9 col-lg-8">
             <Row>
-              {[...Array(3)].map((_, i) => (
-                <div key={`esp-mob-${i}`} className="w-100 d-block d-lg-none">
-                  &nbsp;
-                </div>
-              ))}
-
-              <div className="punteado col-12 px-5 pt-sm-5 pb-sm-5">
-                {/* Espacios antes del texto */}
-                {[...Array(4)].map((_, i) => (
-                  <div key={`top-mob-${i}`} className="w-100 d-block d-lg-none">
-                    &nbsp;
-                  </div>
-                ))}
-
-                {[...Array(20)].map((_, i) => (
-                  <div key={`top-lg-${i}`} className="w-100 d-none d-lg-block">
-                    &nbsp;
-                  </div>
-                ))}
-
-                {[...Array(5)].map((_, i) => (
-                  <div key={`top-md-${i}`} className="w-100 d-none d-md-block">
-                    &nbsp;
-                  </div>
-                ))}
-
-                <div className="w-100 d-block d-lg-none">&nbsp;</div>
-
+              <div className="punteado col-12 px-5 pt-sm-5 pb-sm-5 intro-content">
                 <ParrafoColor className="text-justify col-10 offset-1 col-md-6 offset-md-3 col-lg-6 text-lg-left">
                   {t("Empresa.text1")}
                 </ParrafoColor>
 
-                {[...Array(7)].map((_, i) => (
-                  <div key={`mid-lg-${i}`} className="w-100 d-none d-lg-block">
-                    &nbsp;
-                  </div>
-                ))}
-                {[...Array(3)].map((_, i) => (
-                  <div key={`mid-mob-${i}`} className="w-100 d-block d-lg-none">
-                    &nbsp;
-                  </div>
-                ))}
-
-                <ParraColorfobold className="text-justify pt-5 d-none pt-sm-0 col-10 offset-1 d-sm-block offset-md-2 col-lg-5 offset-lg-3 text-lg-center">
+                <ParraColorfobold className="text-justify pt-5 d-none pt-sm-0 col-10 offset-1 d-sm-block offset-md-2 col-lg-5 offset-lg-3 text-lg-center intro-highlight">
                   {t("Empresa.text2")}
                 </ParraColorfobold>
 
-                <br />
-                <br />
-                <br />
-                <br />
-
-                <ParrafoColor className="text-justify pregular d-none col-12 pb-5 pt-md-5 d-sm-block col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-lg-left">
+                <ParrafoColor className="text-justify pregular d-none col-12 pb-5 pt-md-5 d-sm-block col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-lg-left intro-detail">
                   {t("Empresa.text2a")}
                 </ParrafoColor>
-
-                {[...Array(5)].map((_, i) => (
-                  <div key={`bot-md-${i}`} className="w-100 d-none d-md-block">
-                    &nbsp;
-                  </div>
-                ))}
-                {[...Array(7)].map((_, i) => (
-                  <div key={`bot-lg-${i}`} className="w-100 d-none d-lg-block">
-                    &nbsp;
-                  </div>
-                ))}
               </div>
             </Row>
           </Col>
 
-          <Col className="text-sm-center order-3 col-6 offset-6 col-sm-12 offset-sm-0 col-md-10 offset-md-1 col-lg-6 offset-lg-3">
-            {[...Array(9)].map((_, i) => (
-              <div key={`bottom-lg-${i}`} className="w-100 d-none d-lg-block">
-                &nbsp;
-              </div>
-            ))}
-            {[...Array(2)].map((_, i) => (
-              <div key={`bottom-mob-${i}`} className="w-100 d-block d-lg-none">
-                &nbsp;
-              </div>
-            ))}
-
+          <Col className="text-sm-center order-3 col-6 offset-6 col-sm-12 offset-sm-0 col-md-10 offset-md-1 col-lg-6 offset-lg-3 intro-bottom">
             <Row className="d-flex align-items-center">
               <Col className="d-none d-sm-block col-md-4 offset-md-2">
                 <PalabraDestacadaColor>
@@ -132,12 +61,6 @@ const Introduccion = () => {
                 />
               </Col>
             </Row>
-
-            {[...Array(5)].map((_, i) => (
-              <div key={`final-space-${i}`} className="w-100 d-block d-lg-none">
-                &nbsp;
-              </div>
-            ))}
           </Col>
         </Row>
       </Container>
@@ -151,20 +74,53 @@ const Styles = styled.div`
   width: 100%;
   height: 100%;
 
+  .intro-container {
+    padding-top: 3rem;
+
+    @media (min-width: 992px) {
+      padding-top: 0;
+    }
+  }
+
+  .intro-content {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    @media (min-width: 992px) {
+      padding-top: 12rem;
+      padding-bottom: 8rem;
+    }
+  }
+
+  .intro-highlight {
+    margin-top: 3rem;
+
+    @media (min-width: 992px) {
+      margin-top: 5rem;
+    }
+  }
+
+  .intro-detail {
+    margin-top: 3rem;
+  }
+
+  .intro-bottom {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+
+    @media (min-width: 992px) {
+      padding-top: 6rem;
+      padding-bottom: 0;
+    }
+  }
+
   img {
     height: 100%;
     width: 100%;
   }
 
-  .imgfondo {
-    align-self: center;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-  }
-
   span {
-    color: #ff6e40;
+    color: var(--primary-color);
     font-size: 1.7rem;
     font-family: Montserrat;
     font-weight: 400;
@@ -172,31 +128,13 @@ const Styles = styled.div`
     letter-spacing: 1px;
   }
 
-  .pllamativo {
-    color: #ff6e40;
-    font-size: 3rem;
-    font-family: Montserrat;
-    font-weight: 400;
-    line-height: 3.2rem;
-    letter-spacing: 3px;
-  }
-
   .pregular {
-    color: #ff6e40;
+    color: var(--primary-color);
     font-size: 2rem;
     font-family: Montserrat;
     font-weight: 400;
     line-height: 2.2rem;
     letter-spacing: 1px;
-  }
-
-  .alfredotext {
-    font-family: Montserrat;
-    font-weight: 400;
-    line-height: 2.2rem;
-    letter-spacing: 1px;
-    color: #ff6e40;
-    font-size: 2rem;
   }
 
   .punteado {
