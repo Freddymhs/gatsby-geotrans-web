@@ -1,9 +1,9 @@
 import React from "react";
-import { Link, Trans, useTranslation } from "gatsby-plugin-react-i18next"; //en todos los comps
+import { useTranslation } from "gatsby-plugin-react-i18next";
 
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
-import { TituloDePagina, SubtituloSimple } from "../shared/Texts";
+import { TituloDePagina } from "../shared/Texts";
 
 const Titulo = () => {
   const { t } = useTranslation();

@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
-import { Link, Trans, useTranslation } from "gatsby-plugin-react-i18next"; //en todos los comps
+import { Container, Row } from "react-bootstrap";
+import { useTranslation } from "gatsby-plugin-react-i18next";
 
 import areaA from "@images/dibujossvg/areaA.svg";
 import areaB from "@images/dibujossvg/areaB.svg";

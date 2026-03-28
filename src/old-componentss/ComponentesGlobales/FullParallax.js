@@ -1,6 +1,5 @@
 import React from "react";
-import { Parallax, Background } from "react-parallax";
-import { Overlaypersonalizado, OverlaySecundario } from "./PageVideoBG";
+import { Parallax } from "react-parallax";
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 import { useTranslation } from "react-i18next";

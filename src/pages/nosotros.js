@@ -1,6 +1,5 @@
 import React from "react";
 import { graphql } from "gatsby";
-import { useTranslation } from "gatsby-plugin-react-i18next";
 import Layout from "@/componentsv2/layout/layout";
 import { Seo } from "@/componentsv2/shared/Seo";
 import Separador from "@/componentsv2/shared/Separador";

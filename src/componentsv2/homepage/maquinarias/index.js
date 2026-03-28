@@ -1,6 +1,6 @@
 import React from "react";
 import { useMemo } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import { Separador, SeparadorGrande } from "../../shared/Separador";
 import AllCards from "./AllCards";
 import {
