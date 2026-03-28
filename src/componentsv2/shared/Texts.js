@@ -5,15 +5,15 @@ import styled from "styled-components";
 // COLORES PRINCIPALES
 // =============================================================================
 const COLORS = {
-  primary: "#ff6e40",
-  primaryLight: "#ffa06d",
-  primaryDark: "#c53d13",
-  dark: "#27424f",
-  darkBlue: "#001b27",
-  gray: "#526d7b",
-  white: "#fafafa",
-  ghostWhite: "#f8f8ff",
-  lightGray: "#ccc",
+  primary: "var(--primary-color)",
+  primaryLight: "var(--primary-hover)",
+  primaryDark: "var(--primary-dark)",
+  dark: "var(--text-dark)",
+  darkBlue: "var(--background-dark)",
+  gray: "var(--text-gray)",
+  white: "var(--white-background)",
+  ghostWhite: "var(--ghost-white)",
+  lightGray: "var(--light-gray)",
 };
 
 // =============================================================================

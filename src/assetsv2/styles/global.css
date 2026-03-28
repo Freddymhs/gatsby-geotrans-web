@@ -37,10 +37,15 @@ html {
 :root {
   --primary-color: #ff6e40;
   --primary-hover: #ffa06d;
+  --primary-dark: #c53d13;
   --secondary-color: #007b5e;
   --secondary-hover: #108d6f;
-  --white-background: #fafafa;
+  --text-dark: #27424f;
   --background-dark: #001b27;
+  --text-gray: #526d7b;
+  --white-background: #fafafa;
+  --ghost-white: #f8f8ff;
+  --light-gray: #ccc;
   --border-color: #dee2e6;
   --shadow-color: rgba(158, 158, 158, 0.3);
 }
