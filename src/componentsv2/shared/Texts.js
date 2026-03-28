@@ -223,12 +223,12 @@ export const TextoGrandeBoldColor = styled(TextoPortadaBase)`
 export const Titulowebv1 = styled.span`
   margin: 0;
   padding: 0;
-  font-size: 4.71rem;
-  line-height: 4.71rem;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
   font-family: Blader;
   font-weight: 100;
   color: ${COLORS.primaryText};
-  ${letterSpacingMixin("0.3rem")}
+  ${letterSpacingMixin("0.2rem")}
 `;
 
 export const Subtitulowebv1 = styled.span`
@@ -236,17 +236,17 @@ export const Subtitulowebv1 = styled.span`
   padding: 0;
   font-family: Montserrat;
   font-weight: 600;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   line-height: 0px;
   color: ${COLORS.darkBlue};
 `;
 
 export const TextMenu = styled.span`
   color: ${COLORS.dark} !important;
-  font-size: 2.13rem !important;
-  font-weight: 700 !important;
-  font-family: Montserrat-Bold;
-  ${letterSpacingMixin()}
+  font-size: 1.6rem !important;
+  font-weight: 600 !important;
+  font-family: Montserrat;
+  ${letterSpacingMixin("0.5px")}
 `;
 
 export const TextLanguage = styled.span`

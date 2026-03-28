@@ -1,10 +1,12 @@
 import React from "react";
-const SectionDivider = () => {
-  return (
-    <div style={{ backgroundColor: "#FF6E40", paddingTop: "3px" }}>
-      <br />
-    </div>
-  );
-};
+
+const SectionDivider = () => (
+  <div
+    style={{
+      backgroundColor: "var(--primary-color)",
+      height: "4px",
+    }}
+  />
+);
 
 export default SectionDivider;

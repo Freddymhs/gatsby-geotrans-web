@@ -27,8 +27,8 @@ const MainNavigation = () => {
           ) {
             childImageSharp {
               fixed(
-                width: 68
-                height: 68
+                width: 48
+                height: 48
                 fit: CONTAIN
                 background: "#f8f8ff"
               ) {
@@ -66,10 +66,10 @@ const BrandLogo = ({ image }) => {
           <Img
             fixed={image}
             alt="Logo Geotrans"
-            className={"me-3"}
+            className={"me-2"}
             style={{
-              maxHeight: 68,
-              maxWidth: 68,
+              maxHeight: 48,
+              maxWidth: 48,
               margin: 0,
               padding: 0,
               userSelect: "none",
@@ -100,10 +100,10 @@ const NavigationLinks = () => {
             className="px-3 py-2 text-decoration-none"
             style={{
               transition: "color 0.3s ease",
-              color: "#007b5e",
+              color: "var(--secondary-color)",
             }}
-            onMouseEnter={(e) => (e.target.style.color = "#ff6e40")}
-            onMouseLeave={(e) => (e.target.style.color = "#007b5e")}
+            onMouseEnter={(e) => (e.target.style.color = "var(--primary-color)")}
+            onMouseLeave={(e) => (e.target.style.color = "var(--secondary-color)")}
           >
             <TextMenu>{t("header.Home")}</TextMenu>
           </Nav.Link>
@@ -116,10 +116,10 @@ const NavigationLinks = () => {
             className="px-3 py-2 text-decoration-none"
             style={{
               transition: "color 0.3s ease",
-              color: "#007b5e",
+              color: "var(--secondary-color)",
             }}
-            onMouseEnter={(e) => (e.target.style.color = "#ff6e40")}
-            onMouseLeave={(e) => (e.target.style.color = "#007b5e")}
+            onMouseEnter={(e) => (e.target.style.color = "var(--primary-color)")}
+            onMouseLeave={(e) => (e.target.style.color = "var(--secondary-color)")}
           >
             <TextMenu>{t("header.About Us")}</TextMenu>
           </Nav.Link>
@@ -132,10 +132,10 @@ const NavigationLinks = () => {
             className="px-3 py-2 text-decoration-none"
             style={{
               transition: "color 0.3s ease",
-              color: "#007b5e",
+              color: "var(--secondary-color)",
             }}
-            onMouseEnter={(e) => (e.target.style.color = "#ff6e40")}
-            onMouseLeave={(e) => (e.target.style.color = "#007b5e")}
+            onMouseEnter={(e) => (e.target.style.color = "var(--primary-color)")}
+            onMouseLeave={(e) => (e.target.style.color = "var(--secondary-color)")}
           >
             <TextMenu>{t("header.Contact")}</TextMenu>
           </Nav.Link>
