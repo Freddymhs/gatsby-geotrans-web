@@ -6,6 +6,7 @@ import styled from "styled-components";
 // =============================================================================
 const COLORS = {
   primary: "var(--primary-color)",
+  primaryText: "var(--primary-text)",
   primaryLight: "var(--primary-hover)",
   primaryDark: "var(--primary-dark)",
   dark: "var(--text-dark)",
@@ -44,7 +45,7 @@ export const TituloDePagina = styled.h1`
   font-family: Montserrat;
   text-transform: capitalize;
   font-weight: 600;
-  color: ${COLORS.primary};
+  color: ${COLORS.primaryText};
   ${letterSpacingMixin("0.3rem")}
   ${textShadowComplex}
 `;
@@ -226,7 +227,7 @@ export const Titulowebv1 = styled.span`
   line-height: 4.71rem;
   font-family: Blader;
   font-weight: 100;
-  color: ${COLORS.primary};
+  color: ${COLORS.primaryText};
   ${letterSpacingMixin("0.3rem")}
 `;
 

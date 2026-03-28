@@ -26,7 +26,7 @@ const Footer = () => {
     textAlign: "left",
     fontSize: "2.4rem",
     letterSpacing: "0.21em",
-    color: "#ff6e40",
+    color: "var(--primary-text)",
     fontFamily: "Montserrat",
   };
 

@@ -10,7 +10,7 @@ module.exports = {
     title: `GEOTRANS-retroexcavadora,tolva,aljibe,batea,pluma.. `,
     description: `en ARICA ,Servicios ,Ventas, Arriendos a diferentes Precios según área :Minera,Obras,Construcción, Áridos ,Movimiento Tierra, Izajes ,Limpieza en otros...`,
     author: `@fmarcosdev`,
-    siteUrl: `http://localhost:8000`, // Movido aquí desde el plugin
+    siteUrl: process.env.GATSBY_SITE_URL || `https://geotrans.vercel.app`,
   },
   plugins: [
     {
@@ -50,7 +50,7 @@ module.exports = {
         defaultLanguage: `es`,
         generateDefaultLanguagePage: true, // Genera páginas para el idioma por defecto
         redirect: true, // Redirecciona automáticamente según el navegador
-        siteUrl: `http://localhost:8000`, // Para producción cambia esto
+        siteUrl: process.env.GATSBY_SITE_URL || `https://geotrans.vercel.app`,
         trailingSlash: "always",
         i18nextOptions: {
           interpolation: {
@@ -99,6 +99,14 @@ module.exports = {
             name: "SqliteMysqlTodosLosServicios",
           },
         ],
+      },
+    },
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        policy: [{ userAgent: `*`, allow: `/` }],
+        sitemap: `${process.env.GATSBY_SITE_URL || `https://geotrans.vercel.app`}/sitemap-index.xml`,
       },
     },
   ],
