@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { useTranslation } from "gatsby-plugin-react-i18next";
 
 import areaA from "@images/dibujossvg/areaA.svg";
@@ -8,62 +8,28 @@ import styled from "styled-components";
 
 import { PalabraDestacadaBlack } from "../shared/Texts";
 
+const AREAS = [
+  { key: "Empresa.text4", bg: "a" },
+  { key: "Empresa.text5", bg: "b" },
+  { key: "Empresa.text6", bg: "a" },
+  { key: "Empresa.text7", bg: "b" },
+  { key: "Empresa.text8", bg: "a" },
+];
+
 const NuestrasAreas = () => {
-  const { t } = useTranslation(); // necesario
+  const { t } = useTranslation();
 
   return (
     <Styles>
       <Container>
-        <Row>
-          <div
-            className="card-body imgtipobtns2 text-center
-            col-12 col-sm-6 
-            col-lg-3 offset-lg-1
-            pb-lg-5
-            
-            "
-          >
-            <PalabraDestacadaBlack>{t("Empresa.text4")}</PalabraDestacadaBlack>
-          </div>
-
-          <div
-            className="card-body imgtipobtns1 text-center
-             col-12 col-sm-6 
-             col-lg-4 offset-lg-3
-             mt-lg-5  
- 
-             
-            "
-          >
-            <PalabraDestacadaBlack>{t("Empresa.text5")}</PalabraDestacadaBlack>
-          </div>
-          <div
-            className="card-body imgtipobtns1 text-center
-             col-12 col-sm-6 
-             col-lg-3 offset-lg-4
-             mt-lg-5
-            "
-          >
-            <PalabraDestacadaBlack>{t("Empresa.text6")}</PalabraDestacadaBlack>
-          </div>
-          <div className="col-5  d-none d-lg-block"> &nbsp;</div>
-          <div
-            className="card-body imgtipobtns2 text-center
-            offset-lg-0 col-12 col-sm-6 
-            mt-lg-5
-            "
-          >
-            <PalabraDestacadaBlack>{t("Empresa.text7")}</PalabraDestacadaBlack>
-          </div>
-          <div
-            className="card-body imgtipobtns2 text-center
-             col-12 col-sm-6 
-             col-lg-3 offset-lg-2
-             
-            "
-          >
-            <PalabraDestacadaBlack>{t("Empresa.text8")}</PalabraDestacadaBlack>
-          </div>
+        <Row className="justify-content-center g-3 g-md-4">
+          {AREAS.map((area) => (
+            <Col key={area.key} xs={12} sm={6} lg={4} className="d-flex justify-content-center">
+              <div className={`area-card area-card--${area.bg} text-center`}>
+                <PalabraDestacadaBlack>{t(area.key)}</PalabraDestacadaBlack>
+              </div>
+            </Col>
+          ))}
         </Row>
       </Container>
     </Styles>
@@ -72,42 +38,32 @@ const NuestrasAreas = () => {
 
 const Styles = styled.div`
   width: 100%;
-  height: 100%;
-  
-  .imgtipobtns1 {
-    background: url(${areaA});
+
+  .area-card {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    padding: 6rem !important;
-    font-size: 2rem;
-    font-family: Montserrat;
-    font-weight: 500;
-    line-height: 2.6rem;
-    letter-spacing: 1px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 5rem 4rem;
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    cursor: default;
 
     &:hover {
-      transform: scale(1.03);
+      transform: scale(1.05);
+    }
+
+    &--a {
+      background-image: url(${areaA});
+    }
+
+    &--b {
+      background-image: url(${areaB});
     }
   }
-
-  .imgtipobtns2 {
-    background: url(${areaB});
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    padding: 6rem !important;
-    font-size: 2rem;
-    font-family: Montserrat;
-    font-weight: 500;
-    line-height: 2.6rem;
-    letter-spacing: 1px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-    &:hover {
-      transform: scale(1.03);
-    }
-  }`;
+`;
 
 export default NuestrasAreas;

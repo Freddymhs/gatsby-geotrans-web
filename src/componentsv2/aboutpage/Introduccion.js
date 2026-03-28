@@ -83,33 +83,33 @@ const Styles = styled.div`
   }
 
   .intro-content {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 
     @media (min-width: 992px) {
-      padding-top: 12rem;
-      padding-bottom: 8rem;
+      padding-top: 8rem;
+      padding-bottom: 5rem;
     }
   }
 
   .intro-highlight {
-    margin-top: 3rem;
+    margin-top: 2rem;
 
     @media (min-width: 992px) {
-      margin-top: 5rem;
+      margin-top: 3rem;
     }
   }
 
   .intro-detail {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 
   .intro-bottom {
     padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 
     @media (min-width: 992px) {
-      padding-top: 6rem;
+      padding-top: 4rem;
       padding-bottom: 0;
     }
   }

@@ -184,17 +184,34 @@ const Footer = () => {
             </tr>
           </FooterSection>
 
-          <FooterSection title={t("footer.services")} className="col-md-6">
-            {serviceLinks.map((service, index) => (
-              <tr key={index}>
-                <td>
-                  <Link to={service.to} style={linkStyles}>
-                    {t(service.key)}
-                  </Link>
-                </td>
-              </tr>
-            ))}
-          </FooterSection>
+          <Col className="col-12 col-md-6 py-5">
+            <table className="w-100">
+              <thead>
+                <tr>
+                  <th colSpan={2} style={theadStyles}>{t("footer.services")}</th>
+                </tr>
+              </thead>
+              <tbody style={tbodyStyles}>
+                {serviceLinks
+                  .reduce((rows, service, i) => {
+                    if (i % 2 === 0) rows.push([service]);
+                    else rows[rows.length - 1].push(service);
+                    return rows;
+                  }, [])
+                  .map((pair, i) => (
+                    <tr key={i}>
+                      {pair.map((service, j) => (
+                        <td key={j} style={{ width: "50%", paddingRight: "1rem" }}>
+                          <Link to={service.to} style={linkStyles}>
+                            {t(service.key)}
+                          </Link>
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+              </tbody>
+            </table>
+          </Col>
 
           <Col className="col-12 col-md-6 2en1 sin rows py-5">
             <FooterSection title={t("footer.machines")} className="px-0 mx-0">
