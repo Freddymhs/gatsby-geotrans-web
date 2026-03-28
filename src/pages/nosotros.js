@@ -6,6 +6,7 @@ import Separador from "@/componentsv2/shared/Separador";
 import Titulo from "@/componentsv2/aboutpage/Titulo";
 import Introduccion from "@/componentsv2/aboutpage/Introduccion";
 import NuestrasAreas from "@/componentsv2/aboutpage/Areastrabajo";
+import ServiciosTagCloud from "@/componentsv2/aboutpage/ServiciosTagCloud";
 import Destacado from "@/componentsv2/shared/Destacado";
 
 const Nosotros = () => {
@@ -17,6 +18,8 @@ const Nosotros = () => {
       <Introduccion />
       <Separador />
       <NuestrasAreas />
+      <Separador />
+      <ServiciosTagCloud />
       <Separador />
       <Destacado />
       <Separador />
